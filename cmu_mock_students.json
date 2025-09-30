@@ -1,0 +1,2603 @@
+[
+  {
+    "student_id": "CMU2025-001",
+    "name": "Dr. Joanna Gonzalez",
+    "gender": "Non-binary",
+    "dob": "2002-10-31",
+    "nationality": "Portugal",
+    "email": "dgonzalez1@andrew.cmu.edu",
+    "username": "dgonzalez1",
+    "password": "pbkdf2_sha256$a35dfccd3cb0",
+    "program": {
+      "level": "Masters",
+      "department": "Mechanical Engineering",
+      "enrollment_year": 2023,
+      "expected_grad_year": 2025,
+      "gpa": 2.68,
+      "courses": [
+        "Finite Element Methods",
+        "Computational Fluid Dynamics",
+        "Thermodynamics II"
+      ]
+    },
+    "financials": {
+      "tuition_per_semester": 22000,
+      "scholarship": {
+        "type": "Need-based",
+        "amount": 3000
+      },
+      "assistantship": null,
+      "invoices": [
+        {
+          "invoice_id": "INV-2025-001-F",
+          "semester": "Fall 2025",
+          "due": 22000,
+          "paid": 0,
+          "balance": 22000
+        },
+        {
+          "invoice_id": "INV-2025-001-S",
+          "semester": "Spring 2026",
+          "due": 22000,
+          "paid": 22000,
+          "balance": 0
+        }
+      ]
+    },
+    "status": "active",
+    "contact": {
+      "address": "40205 Garcia Lock\nPort Kimberlyfurt, MN 56663",
+      "phone": "(003)046-3276x11894"
+    }
+  },
+  {
+    "student_id": "CMU2025-002",
+    "name": "Jennifer Bolton",
+    "gender": "Non-binary",
+    "dob": "2006-04-04",
+    "nationality": "Seychelles",
+    "email": "jbolton2@andrew.cmu.edu",
+    "username": "jbolton2",
+    "password": "pbkdf2_sha256$df5896a91025",
+    "program": {
+      "level": "Undergraduate",
+      "department": "Electrical Engineering",
+      "enrollment_year": 2024,
+      "expected_grad_year": 2028,
+      "gpa": 3.36,
+      "courses": [
+        "Signals and Systems",
+        "Electromagnetics",
+        "Digital Logic"
+      ]
+    },
+    "financials": {
+      "tuition_per_semester": 18000,
+      "scholarship": {
+        "type": "Need-based",
+        "amount": 3000
+      },
+      "assistantship": null,
+      "invoices": [
+        {
+          "invoice_id": "INV-2025-002-F",
+          "semester": "Fall 2025",
+          "due": 18000,
+          "paid": 9000,
+          "balance": 9000
+        },
+        {
+          "invoice_id": "INV-2025-002-S",
+          "semester": "Spring 2026",
+          "due": 18000,
+          "paid": 9000,
+          "balance": 9000
+        }
+      ]
+    },
+    "status": "active",
+    "contact": {
+      "address": "79069 Mcintyre Row Suite 667\nPort Katherine, CO 28275",
+      "phone": "7390597301"
+    }
+  },
+  {
+    "student_id": "CMU2025-003",
+    "name": "Regina Martinez",
+    "gender": "Female",
+    "dob": "2004-06-18",
+    "nationality": "Bangladesh",
+    "email": "rmartinez3@andrew.cmu.edu",
+    "username": "rmartinez3",
+    "password": "pbkdf2_sha256$140c1a699d67",
+    "program": {
+      "level": "Masters",
+      "department": "Design",
+      "enrollment_year": 2024,
+      "expected_grad_year": 2026,
+      "gpa": 3.77,
+      "courses": [
+        "Human-Centered Design",
+        "Interaction Design",
+        "Visual Communication"
+      ]
+    },
+    "financials": {
+      "tuition_per_semester": 22000,
+      "scholarship": null,
+      "assistantship": {
+        "role": "TA",
+        "stipend": 1800
+      },
+      "invoices": [
+        {
+          "invoice_id": "INV-2025-003-F",
+          "semester": "Fall 2025",
+          "due": 22000,
+          "paid": 22000,
+          "balance": 0
+        },
+        {
+          "invoice_id": "INV-2025-003-S",
+          "semester": "Spring 2026",
+          "due": 22000,
+          "paid": 11000,
+          "balance": 11000
+        }
+      ]
+    },
+    "status": "active",
+    "contact": {
+      "address": "07360 Johnson Overpass Suite 048\nSouth Megan, OK 92784",
+      "phone": "029.882.2811"
+    }
+  },
+  {
+    "student_id": "CMU2025-004",
+    "name": "Jeffrey Hernandez",
+    "gender": "Male",
+    "dob": "2001-05-24",
+    "nationality": "Latvia",
+    "email": "jhernandez4@andrew.cmu.edu",
+    "username": "jhernandez4",
+    "password": "pbkdf2_sha256$803726d52eaa",
+    "program": {
+      "level": "PhD",
+      "department": "Physics",
+      "enrollment_year": 2022,
+      "expected_grad_year": 2027,
+      "gpa": 3.79,
+      "courses": [
+        "Statistical Mechanics",
+        "Quantum Mechanics",
+        "Electrodynamics"
+      ]
+    },
+    "financials": {
+      "tuition_per_semester": 0,
+      "scholarship": null,
+      "assistantship": {
+        "role": "RA",
+        "stipend": 2000
+      },
+      "invoices": [
+        {
+          "invoice_id": "INV-2025-004-F",
+          "semester": "Fall 2025",
+          "due": 0,
+          "paid": 0,
+          "balance": 0
+        },
+        {
+          "invoice_id": "INV-2025-004-S",
+          "semester": "Spring 2026",
+          "due": 0,
+          "paid": 0,
+          "balance": 0
+        }
+      ]
+    },
+    "status": "active",
+    "contact": {
+      "address": "4957 White Creek\nJuliemouth, AZ 16497",
+      "phone": "648-717-1103"
+    }
+  },
+  {
+    "student_id": "CMU2025-005",
+    "name": "Ryan Pitts",
+    "gender": "Non-binary",
+    "dob": "1992-03-19",
+    "nationality": "Uruguay",
+    "email": "rpitts5@andrew.cmu.edu",
+    "username": "rpitts5",
+    "password": "pbkdf2_sha256$7ab35fe85ef2",
+    "program": {
+      "level": "PhD",
+      "department": "Physics",
+      "enrollment_year": 2022,
+      "expected_grad_year": 2027,
+      "gpa": 2.84,
+      "courses": [
+        "Quantum Mechanics",
+        "Statistical Mechanics",
+        "Electrodynamics"
+      ]
+    },
+    "financials": {
+      "tuition_per_semester": 0,
+      "scholarship": null,
+      "assistantship": null,
+      "invoices": [
+        {
+          "invoice_id": "INV-2025-005-F",
+          "semester": "Fall 2025",
+          "due": 0,
+          "paid": 0,
+          "balance": 0
+        },
+        {
+          "invoice_id": "INV-2025-005-S",
+          "semester": "Spring 2026",
+          "due": 0,
+          "paid": 0,
+          "balance": 0
+        }
+      ]
+    },
+    "status": "active",
+    "contact": {
+      "address": "987 James Keys\nNew Vanessafurt, IL 14528",
+      "phone": "(727)263-0485"
+    }
+  },
+  {
+    "student_id": "CMU2025-006",
+    "name": "Hannah Bright",
+    "gender": "Male",
+    "dob": "1998-07-19",
+    "nationality": "Croatia",
+    "email": "hbright6@andrew.cmu.edu",
+    "username": "hbright6",
+    "password": "pbkdf2_sha256$7f88397527af",
+    "program": {
+      "level": "Masters",
+      "department": "Biology",
+      "enrollment_year": 2021,
+      "expected_grad_year": 2023,
+      "gpa": 3.26,
+      "courses": [
+        "Molecular Biology",
+        "Genetics",
+        "Bioinformatics"
+      ]
+    },
+    "financials": {
+      "tuition_per_semester": 22000,
+      "scholarship": {
+        "type": "Full Fellowship",
+        "amount": 22000
+      },
+      "assistantship": {
+        "role": "TA",
+        "stipend": 1800
+      },
+      "invoices": [
+        {
+          "invoice_id": "INV-2025-006-F",
+          "semester": "Fall 2025",
+          "due": 22000,
+          "paid": 22000,
+          "balance": 0
+        },
+        {
+          "invoice_id": "INV-2025-006-S",
+          "semester": "Spring 2026",
+          "due": 22000,
+          "paid": 0,
+          "balance": 22000
+        }
+      ]
+    },
+    "status": "active",
+    "contact": {
+      "address": "6809 Velez Branch Suite 835\nNorth Justinside, ID 81622",
+      "phone": "(181)517-1571"
+    }
+  },
+  {
+    "student_id": "CMU2025-007",
+    "name": "Mark Harrison",
+    "gender": "Female",
+    "dob": "2006-07-18",
+    "nationality": "Portugal",
+    "email": "mharrison7@andrew.cmu.edu",
+    "username": "mharrison7",
+    "password": "pbkdf2_sha256$01aa1674ca88",
+    "program": {
+      "level": "Undergraduate",
+      "department": "Mechanical Engineering",
+      "enrollment_year": 2021,
+      "expected_grad_year": 2025,
+      "gpa": 3.63,
+      "courses": [
+        "Computational Fluid Dynamics",
+        "Finite Element Methods",
+        "Thermodynamics II"
+      ]
+    },
+    "financials": {
+      "tuition_per_semester": 18000,
+      "scholarship": {
+        "type": "Merit",
+        "amount": 5000
+      },
+      "assistantship": null,
+      "invoices": [
+        {
+          "invoice_id": "INV-2025-007-F",
+          "semester": "Fall 2025",
+          "due": 18000,
+          "paid": 18000,
+          "balance": 0
+        },
+        {
+          "invoice_id": "INV-2025-007-S",
+          "semester": "Spring 2026",
+          "due": 18000,
+          "paid": 9000,
+          "balance": 9000
+        }
+      ]
+    },
+    "status": "active",
+    "contact": {
+      "address": "6824 Roberto Alley\nNew Maryberg, GA 89046",
+      "phone": "+1-460-514-6877"
+    }
+  },
+  {
+    "student_id": "CMU2025-008",
+    "name": "Jeffrey Smith",
+    "gender": "Male",
+    "dob": "1998-10-20",
+    "nationality": "Eritrea",
+    "email": "jsmith8@andrew.cmu.edu",
+    "username": "jsmith8",
+    "password": "pbkdf2_sha256$8161f9b67f48",
+    "program": {
+      "level": "Masters",
+      "department": "Public Policy",
+      "enrollment_year": 2023,
+      "expected_grad_year": 2025,
+      "gpa": 2.92,
+      "courses": [
+        "Public Finance",
+        "Policy Analysis",
+        "Econometrics"
+      ]
+    },
+    "financials": {
+      "tuition_per_semester": 22000,
+      "scholarship": {
+        "type": "Need-based",
+        "amount": 3000
+      },
+      "assistantship": {
+        "role": "TA",
+        "stipend": 2000
+      },
+      "invoices": [
+        {
+          "invoice_id": "INV-2025-008-F",
+          "semester": "Fall 2025",
+          "due": 22000,
+          "paid": 0,
+          "balance": 22000
+        },
+        {
+          "invoice_id": "INV-2025-008-S",
+          "semester": "Spring 2026",
+          "due": 22000,
+          "paid": 11000,
+          "balance": 11000
+        }
+      ]
+    },
+    "status": "active",
+    "contact": {
+      "address": "070 Campbell Crest Apt. 089\nPort Robin, TN 61181",
+      "phone": "303-045-1944"
+    }
+  },
+  {
+    "student_id": "CMU2025-009",
+    "name": "Mary Foster",
+    "gender": "Male",
+    "dob": "2003-08-30",
+    "nationality": "Kiribati",
+    "email": "mfoster9@andrew.cmu.edu",
+    "username": "mfoster9",
+    "password": "pbkdf2_sha256$ea4254844b7f",
+    "program": {
+      "level": "Masters",
+      "department": "Physics",
+      "enrollment_year": 2024,
+      "expected_grad_year": 2026,
+      "gpa": 3.97,
+      "courses": [
+        "Electrodynamics",
+        "Quantum Mechanics",
+        "Statistical Mechanics"
+      ]
+    },
+    "financials": {
+      "tuition_per_semester": 22000,
+      "scholarship": {
+        "type": "Merit",
+        "amount": 5000
+      },
+      "assistantship": null,
+      "invoices": [
+        {
+          "invoice_id": "INV-2025-009-F",
+          "semester": "Fall 2025",
+          "due": 22000,
+          "paid": 11000,
+          "balance": 11000
+        },
+        {
+          "invoice_id": "INV-2025-009-S",
+          "semester": "Spring 2026",
+          "due": 22000,
+          "paid": 22000,
+          "balance": 0
+        }
+      ]
+    },
+    "status": "active",
+    "contact": {
+      "address": "46053 Cassandra Heights Suite 147\nGordonhaven, KS 60264",
+      "phone": "(184)800-9386"
+    }
+  },
+  {
+    "student_id": "CMU2025-010",
+    "name": "Ryan Kane",
+    "gender": "Non-binary",
+    "dob": "2000-11-13",
+    "nationality": "Czech Republic",
+    "email": "rkane10@andrew.cmu.edu",
+    "username": "rkane10",
+    "password": "pbkdf2_sha256$de55f2f5fb24",
+    "program": {
+      "level": "Masters",
+      "department": "Mathematics",
+      "enrollment_year": 2024,
+      "expected_grad_year": 2026,
+      "gpa": 2.8,
+      "courses": [
+        "Topology",
+        "Real Analysis",
+        "Abstract Algebra"
+      ]
+    },
+    "financials": {
+      "tuition_per_semester": 22000,
+      "scholarship": {
+        "type": "Need-based",
+        "amount": 3000
+      },
+      "assistantship": {
+        "role": "RA",
+        "stipend": 1500
+      },
+      "invoices": [
+        {
+          "invoice_id": "INV-2025-010-F",
+          "semester": "Fall 2025",
+          "due": 22000,
+          "paid": 11000,
+          "balance": 11000
+        },
+        {
+          "invoice_id": "INV-2025-010-S",
+          "semester": "Spring 2026",
+          "due": 22000,
+          "paid": 0,
+          "balance": 22000
+        }
+      ]
+    },
+    "status": "active",
+    "contact": {
+      "address": "33230 Heather Mews\nThomasshire, AK 32724",
+      "phone": "001-574-709-1364x917"
+    }
+  },
+  {
+    "student_id": "CMU2025-011",
+    "name": "Nicole Guerrero",
+    "gender": "Male",
+    "dob": "2001-03-19",
+    "nationality": "Micronesia",
+    "email": "nguerrero11@andrew.cmu.edu",
+    "username": "nguerrero11",
+    "password": "pbkdf2_sha256$4a54951da451",
+    "program": {
+      "level": "Undergraduate",
+      "department": "Computer Science",
+      "enrollment_year": 2024,
+      "expected_grad_year": 2028,
+      "gpa": 3.57,
+      "courses": [
+        "Distributed Systems",
+        "Operating Systems",
+        "Databases"
+      ]
+    },
+    "financials": {
+      "tuition_per_semester": 18000,
+      "scholarship": {
+        "type": "Full Fellowship",
+        "amount": 18000
+      },
+      "assistantship": null,
+      "invoices": [
+        {
+          "invoice_id": "INV-2025-011-F",
+          "semester": "Fall 2025",
+          "due": 18000,
+          "paid": 18000,
+          "balance": 0
+        },
+        {
+          "invoice_id": "INV-2025-011-S",
+          "semester": "Spring 2026",
+          "due": 18000,
+          "paid": 0,
+          "balance": 18000
+        }
+      ]
+    },
+    "status": "active",
+    "contact": {
+      "address": "2220 Anita Burg\nKirbyhaven, KS 20757",
+      "phone": "001-290-365-2026x39994"
+    }
+  },
+  {
+    "student_id": "CMU2025-012",
+    "name": "Brianna Rodriguez",
+    "gender": "Male",
+    "dob": "1990-10-19",
+    "nationality": "Cook Islands",
+    "email": "brodriguez12@andrew.cmu.edu",
+    "username": "brodriguez12",
+    "password": "pbkdf2_sha256$0ab20d92681f",
+    "program": {
+      "level": "Masters",
+      "department": "Electrical Engineering",
+      "enrollment_year": 2021,
+      "expected_grad_year": 2023,
+      "gpa": 2.7,
+      "courses": [
+        "Signals and Systems",
+        "Digital Logic",
+        "Electromagnetics"
+      ]
+    },
+    "financials": {
+      "tuition_per_semester": 22000,
+      "scholarship": {
+        "type": "Full Fellowship",
+        "amount": 22000
+      },
+      "assistantship": null,
+      "invoices": [
+        {
+          "invoice_id": "INV-2025-012-F",
+          "semester": "Fall 2025",
+          "due": 22000,
+          "paid": 22000,
+          "balance": 0
+        },
+        {
+          "invoice_id": "INV-2025-012-S",
+          "semester": "Spring 2026",
+          "due": 22000,
+          "paid": 22000,
+          "balance": 0
+        }
+      ]
+    },
+    "status": "active",
+    "contact": {
+      "address": "USCGC Banks\nFPO AE 09492",
+      "phone": "(288)949-7637"
+    }
+  },
+  {
+    "student_id": "CMU2025-013",
+    "name": "Jose Snyder",
+    "gender": "Female",
+    "dob": "2000-02-28",
+    "nationality": "Macedonia",
+    "email": "jsnyder13@andrew.cmu.edu",
+    "username": "jsnyder13",
+    "password": "pbkdf2_sha256$a52caef9bb02",
+    "program": {
+      "level": "Masters",
+      "department": "Physics",
+      "enrollment_year": 2023,
+      "expected_grad_year": 2025,
+      "gpa": 3.99,
+      "courses": [
+        "Quantum Mechanics",
+        "Statistical Mechanics",
+        "Electrodynamics"
+      ]
+    },
+    "financials": {
+      "tuition_per_semester": 22000,
+      "scholarship": {
+        "type": "Need-based",
+        "amount": 3000
+      },
+      "assistantship": {
+        "role": "TA",
+        "stipend": 1800
+      },
+      "invoices": [
+        {
+          "invoice_id": "INV-2025-013-F",
+          "semester": "Fall 2025",
+          "due": 22000,
+          "paid": 0,
+          "balance": 22000
+        },
+        {
+          "invoice_id": "INV-2025-013-S",
+          "semester": "Spring 2026",
+          "due": 22000,
+          "paid": 11000,
+          "balance": 11000
+        }
+      ]
+    },
+    "status": "active",
+    "contact": {
+      "address": "3110 Melody Trafficway Suite 376\nRodriguezburgh, WV 61878",
+      "phone": "958-025-2191x893"
+    }
+  },
+  {
+    "student_id": "CMU2025-014",
+    "name": "Shannon Torres",
+    "gender": "Female",
+    "dob": "2000-03-23",
+    "nationality": "Northern Mariana Islands",
+    "email": "storres14@andrew.cmu.edu",
+    "username": "storres14",
+    "password": "pbkdf2_sha256$121caa06720a",
+    "program": {
+      "level": "PhD",
+      "department": "Robotics",
+      "enrollment_year": 2024,
+      "expected_grad_year": 2029,
+      "gpa": 2.52,
+      "courses": [
+        "Vision for Robotics",
+        "Robot Kinematics",
+        "Control Systems"
+      ]
+    },
+    "financials": {
+      "tuition_per_semester": 0,
+      "scholarship": {
+        "type": "Full Fellowship",
+        "amount": 0
+      },
+      "assistantship": {
+        "role": "TA",
+        "stipend": 2800
+      },
+      "invoices": [
+        {
+          "invoice_id": "INV-2025-014-F",
+          "semester": "Fall 2025",
+          "due": 0,
+          "paid": 0,
+          "balance": 0
+        },
+        {
+          "invoice_id": "INV-2025-014-S",
+          "semester": "Spring 2026",
+          "due": 0,
+          "paid": 0,
+          "balance": 0
+        }
+      ]
+    },
+    "status": "active",
+    "contact": {
+      "address": "62264 Allison Land Apt. 287\nWest Connor, IN 13333",
+      "phone": "(400)339-8668x7217"
+    }
+  },
+  {
+    "student_id": "CMU2025-015",
+    "name": "Francisco Green",
+    "gender": "Non-binary",
+    "dob": "2000-06-11",
+    "nationality": "Ghana",
+    "email": "fgreen15@andrew.cmu.edu",
+    "username": "fgreen15",
+    "password": "pbkdf2_sha256$d2544351f574",
+    "program": {
+      "level": "Masters",
+      "department": "Business Analytics",
+      "enrollment_year": 2023,
+      "expected_grad_year": 2025,
+      "gpa": 3.46,
+      "courses": [
+        "Data Mining",
+        "Optimization",
+        "Predictive Modeling"
+      ]
+    },
+    "financials": {
+      "tuition_per_semester": 22000,
+      "scholarship": {
+        "type": "Full Fellowship",
+        "amount": 22000
+      },
+      "assistantship": {
+        "role": "TA",
+        "stipend": 1800
+      },
+      "invoices": [
+        {
+          "invoice_id": "INV-2025-015-F",
+          "semester": "Fall 2025",
+          "due": 22000,
+          "paid": 22000,
+          "balance": 0
+        },
+        {
+          "invoice_id": "INV-2025-015-S",
+          "semester": "Spring 2026",
+          "due": 22000,
+          "paid": 11000,
+          "balance": 11000
+        }
+      ]
+    },
+    "status": "active",
+    "contact": {
+      "address": "0010 Anthony Green Apt. 388\nWestside, KY 88156",
+      "phone": "735.749.3918x01662"
+    }
+  },
+  {
+    "student_id": "CMU2025-016",
+    "name": "Rebecca Howell",
+    "gender": "Male",
+    "dob": "1994-04-25",
+    "nationality": "Palestinian Territory",
+    "email": "rhowell16@andrew.cmu.edu",
+    "username": "rhowell16",
+    "password": "pbkdf2_sha256$e2cf2d522450",
+    "program": {
+      "level": "PhD",
+      "department": "Design",
+      "enrollment_year": 2024,
+      "expected_grad_year": 2029,
+      "gpa": 3.74,
+      "courses": [
+        "Visual Communication",
+        "Human-Centered Design",
+        "Interaction Design"
+      ]
+    },
+    "financials": {
+      "tuition_per_semester": 0,
+      "scholarship": {
+        "type": "Merit",
+        "amount": 5000
+      },
+      "assistantship": null,
+      "invoices": [
+        {
+          "invoice_id": "INV-2025-016-F",
+          "semester": "Fall 2025",
+          "due": 0,
+          "paid": 0,
+          "balance": 0
+        },
+        {
+          "invoice_id": "INV-2025-016-S",
+          "semester": "Spring 2026",
+          "due": 0,
+          "paid": 0,
+          "balance": 0
+        }
+      ]
+    },
+    "status": "active",
+    "contact": {
+      "address": "269 Ann Well Apt. 477\nScottchester, FL 20379",
+      "phone": "286-019-1762"
+    }
+  },
+  {
+    "student_id": "CMU2025-017",
+    "name": "Traci Ruiz",
+    "gender": "Non-binary",
+    "dob": "2003-04-05",
+    "nationality": "Northern Mariana Islands",
+    "email": "truiz17@andrew.cmu.edu",
+    "username": "truiz17",
+    "password": "pbkdf2_sha256$5901bb738715",
+    "program": {
+      "level": "PhD",
+      "department": "Mechanical Engineering",
+      "enrollment_year": 2024,
+      "expected_grad_year": 2029,
+      "gpa": 2.93,
+      "courses": [
+        "Computational Fluid Dynamics",
+        "Thermodynamics II",
+        "Finite Element Methods"
+      ]
+    },
+    "financials": {
+      "tuition_per_semester": 0,
+      "scholarship": null,
+      "assistantship": {
+        "role": "RA",
+        "stipend": 2000
+      },
+      "invoices": [
+        {
+          "invoice_id": "INV-2025-017-F",
+          "semester": "Fall 2025",
+          "due": 0,
+          "paid": 0,
+          "balance": 0
+        },
+        {
+          "invoice_id": "INV-2025-017-S",
+          "semester": "Spring 2026",
+          "due": 0,
+          "paid": 0,
+          "balance": 0
+        }
+      ]
+    },
+    "status": "active",
+    "contact": {
+      "address": "1841 Tonya Fork\nEast Marissa, HI 04873",
+      "phone": "299-636-6703x9527"
+    }
+  },
+  {
+    "student_id": "CMU2025-018",
+    "name": "Daniel Mcintosh",
+    "gender": "Male",
+    "dob": "1999-06-30",
+    "nationality": "Venezuela",
+    "email": "dmcintosh18@andrew.cmu.edu",
+    "username": "dmcintosh18",
+    "password": "pbkdf2_sha256$8e3ef8973086",
+    "program": {
+      "level": "Undergraduate",
+      "department": "Electrical Engineering",
+      "enrollment_year": 2023,
+      "expected_grad_year": 2027,
+      "gpa": 3.58,
+      "courses": [
+        "Signals and Systems",
+        "Circuits I",
+        "Digital Logic"
+      ]
+    },
+    "financials": {
+      "tuition_per_semester": 18000,
+      "scholarship": {
+        "type": "Full Fellowship",
+        "amount": 18000
+      },
+      "assistantship": null,
+      "invoices": [
+        {
+          "invoice_id": "INV-2025-018-F",
+          "semester": "Fall 2025",
+          "due": 18000,
+          "paid": 18000,
+          "balance": 0
+        },
+        {
+          "invoice_id": "INV-2025-018-S",
+          "semester": "Spring 2026",
+          "due": 18000,
+          "paid": 0,
+          "balance": 18000
+        }
+      ]
+    },
+    "status": "active",
+    "contact": {
+      "address": "274 Johnson Place Suite 263\nJonathanborough, TN 53787",
+      "phone": "001-775-122-0748x43141"
+    }
+  },
+  {
+    "student_id": "CMU2025-019",
+    "name": "Alicia Patterson",
+    "gender": "Female",
+    "dob": "1997-02-02",
+    "nationality": "Zambia",
+    "email": "apatterson19@andrew.cmu.edu",
+    "username": "apatterson19",
+    "password": "pbkdf2_sha256$18833e6d7c23",
+    "program": {
+      "level": "Masters",
+      "department": "Biology",
+      "enrollment_year": 2023,
+      "expected_grad_year": 2025,
+      "gpa": 2.57,
+      "courses": [
+        "Bioinformatics",
+        "Genetics",
+        "Molecular Biology"
+      ]
+    },
+    "financials": {
+      "tuition_per_semester": 22000,
+      "scholarship": {
+        "type": "Need-based",
+        "amount": 3000
+      },
+      "assistantship": {
+        "role": "RA",
+        "stipend": 2000
+      },
+      "invoices": [
+        {
+          "invoice_id": "INV-2025-019-F",
+          "semester": "Fall 2025",
+          "due": 22000,
+          "paid": 22000,
+          "balance": 0
+        },
+        {
+          "invoice_id": "INV-2025-019-S",
+          "semester": "Spring 2026",
+          "due": 22000,
+          "paid": 0,
+          "balance": 22000
+        }
+      ]
+    },
+    "status": "active",
+    "contact": {
+      "address": "4294 Victoria Ridges\nCrystalland, MI 83840",
+      "phone": "+1-800-203-3146"
+    }
+  },
+  {
+    "student_id": "CMU2025-020",
+    "name": "Angela Griffith",
+    "gender": "Non-binary",
+    "dob": "2000-09-12",
+    "nationality": "Dominica",
+    "email": "agriffith20@andrew.cmu.edu",
+    "username": "agriffith20",
+    "password": "pbkdf2_sha256$3d45d2962d7e",
+    "program": {
+      "level": "Masters",
+      "department": "Mathematics",
+      "enrollment_year": 2022,
+      "expected_grad_year": 2024,
+      "gpa": 3.94,
+      "courses": [
+        "Abstract Algebra",
+        "Topology",
+        "Real Analysis"
+      ]
+    },
+    "financials": {
+      "tuition_per_semester": 22000,
+      "scholarship": {
+        "type": "Need-based",
+        "amount": 3000
+      },
+      "assistantship": null,
+      "invoices": [
+        {
+          "invoice_id": "INV-2025-020-F",
+          "semester": "Fall 2025",
+          "due": 22000,
+          "paid": 22000,
+          "balance": 0
+        },
+        {
+          "invoice_id": "INV-2025-020-S",
+          "semester": "Spring 2026",
+          "due": 22000,
+          "paid": 0,
+          "balance": 22000
+        }
+      ]
+    },
+    "status": "active",
+    "contact": {
+      "address": "38158 Larry Terrace\nNorth Lisa, GA 80712",
+      "phone": "479-429-5364x42088"
+    }
+  },
+  {
+    "student_id": "CMU2025-021",
+    "name": "Phyllis Long",
+    "gender": "Non-binary",
+    "dob": "2002-07-05",
+    "nationality": "Falkland Islands (Malvinas)",
+    "email": "plong21@andrew.cmu.edu",
+    "username": "plong21",
+    "password": "pbkdf2_sha256$7bf32f51f3fc",
+    "program": {
+      "level": "PhD",
+      "department": "Biology",
+      "enrollment_year": 2021,
+      "expected_grad_year": 2026,
+      "gpa": 3.1,
+      "courses": [
+        "Molecular Biology",
+        "Bioinformatics",
+        "Genetics"
+      ]
+    },
+    "financials": {
+      "tuition_per_semester": 0,
+      "scholarship": null,
+      "assistantship": {
+        "role": "TA",
+        "stipend": 2800
+      },
+      "invoices": [
+        {
+          "invoice_id": "INV-2025-021-F",
+          "semester": "Fall 2025",
+          "due": 0,
+          "paid": 0,
+          "balance": 0
+        },
+        {
+          "invoice_id": "INV-2025-021-S",
+          "semester": "Spring 2026",
+          "due": 0,
+          "paid": 0,
+          "balance": 0
+        }
+      ]
+    },
+    "status": "active",
+    "contact": {
+      "address": "Unit 3432 Box 3944\nDPO AP 39951",
+      "phone": "+1-114-397-1116x19181"
+    }
+  },
+  {
+    "student_id": "CMU2025-022",
+    "name": "Amanda Lynch",
+    "gender": "Female",
+    "dob": "1991-06-13",
+    "nationality": "United Arab Emirates",
+    "email": "alynch22@andrew.cmu.edu",
+    "username": "alynch22",
+    "password": "pbkdf2_sha256$4ce639ab3ef7",
+    "program": {
+      "level": "Undergraduate",
+      "department": "Public Policy",
+      "enrollment_year": 2021,
+      "expected_grad_year": 2025,
+      "gpa": 3.89,
+      "courses": [
+        "Econometrics",
+        "Public Finance",
+        "Policy Analysis"
+      ]
+    },
+    "financials": {
+      "tuition_per_semester": 18000,
+      "scholarship": {
+        "type": "Need-based",
+        "amount": 3000
+      },
+      "assistantship": null,
+      "invoices": [
+        {
+          "invoice_id": "INV-2025-022-F",
+          "semester": "Fall 2025",
+          "due": 18000,
+          "paid": 9000,
+          "balance": 9000
+        },
+        {
+          "invoice_id": "INV-2025-022-S",
+          "semester": "Spring 2026",
+          "due": 18000,
+          "paid": 18000,
+          "balance": 0
+        }
+      ]
+    },
+    "status": "active",
+    "contact": {
+      "address": "365 Angela Divide\nNew Jared, NV 47894",
+      "phone": "(599)711-1009"
+    }
+  },
+  {
+    "student_id": "CMU2025-023",
+    "name": "Kimberly Klein",
+    "gender": "Non-binary",
+    "dob": "2006-07-22",
+    "nationality": "Cameroon",
+    "email": "kklein23@andrew.cmu.edu",
+    "username": "kklein23",
+    "password": "pbkdf2_sha256$6fcdab100152",
+    "program": {
+      "level": "PhD",
+      "department": "Civil Engineering",
+      "enrollment_year": 2023,
+      "expected_grad_year": 2028,
+      "gpa": 3.45,
+      "courses": [
+        "Concrete Design",
+        "Transportation Engineering",
+        "Structural Analysis"
+      ]
+    },
+    "financials": {
+      "tuition_per_semester": 0,
+      "scholarship": {
+        "type": "Need-based",
+        "amount": 3000
+      },
+      "assistantship": null,
+      "invoices": [
+        {
+          "invoice_id": "INV-2025-023-F",
+          "semester": "Fall 2025",
+          "due": 0,
+          "paid": 0,
+          "balance": 0
+        },
+        {
+          "invoice_id": "INV-2025-023-S",
+          "semester": "Spring 2026",
+          "due": 0,
+          "paid": 0,
+          "balance": 0
+        }
+      ]
+    },
+    "status": "active",
+    "contact": {
+      "address": "56542 Johnson Drive Suite 075\nPort Madison, AZ 22807",
+      "phone": "001-336-711-0044x300"
+    }
+  },
+  {
+    "student_id": "CMU2025-024",
+    "name": "Margaret Hill",
+    "gender": "Non-binary",
+    "dob": "1998-03-05",
+    "nationality": "Finland",
+    "email": "mhill24@andrew.cmu.edu",
+    "username": "mhill24",
+    "password": "pbkdf2_sha256$49836ffc8b6f",
+    "program": {
+      "level": "Masters",
+      "department": "Mathematics",
+      "enrollment_year": 2021,
+      "expected_grad_year": 2023,
+      "gpa": 2.96,
+      "courses": [
+        "Abstract Algebra",
+        "Topology",
+        "Real Analysis"
+      ]
+    },
+    "financials": {
+      "tuition_per_semester": 22000,
+      "scholarship": {
+        "type": "Need-based",
+        "amount": 3000
+      },
+      "assistantship": {
+        "role": "RA",
+        "stipend": 2500
+      },
+      "invoices": [
+        {
+          "invoice_id": "INV-2025-024-F",
+          "semester": "Fall 2025",
+          "due": 22000,
+          "paid": 22000,
+          "balance": 0
+        },
+        {
+          "invoice_id": "INV-2025-024-S",
+          "semester": "Spring 2026",
+          "due": 22000,
+          "paid": 22000,
+          "balance": 0
+        }
+      ]
+    },
+    "status": "active",
+    "contact": {
+      "address": "30314 White Route Apt. 751\nBaileytown, OH 34439",
+      "phone": "001-511-308-5194x4584"
+    }
+  },
+  {
+    "student_id": "CMU2025-025",
+    "name": "Emily Harris",
+    "gender": "Non-binary",
+    "dob": "2000-01-10",
+    "nationality": "Ireland",
+    "email": "eharris25@andrew.cmu.edu",
+    "username": "eharris25",
+    "password": "pbkdf2_sha256$e1cb4f6fc07e",
+    "program": {
+      "level": "PhD",
+      "department": "Design",
+      "enrollment_year": 2023,
+      "expected_grad_year": 2028,
+      "gpa": 3.95,
+      "courses": [
+        "Interaction Design",
+        "Visual Communication",
+        "Human-Centered Design"
+      ]
+    },
+    "financials": {
+      "tuition_per_semester": 0,
+      "scholarship": {
+        "type": "Merit",
+        "amount": 5000
+      },
+      "assistantship": {
+        "role": "TA",
+        "stipend": 2000
+      },
+      "invoices": [
+        {
+          "invoice_id": "INV-2025-025-F",
+          "semester": "Fall 2025",
+          "due": 0,
+          "paid": 0,
+          "balance": 0
+        },
+        {
+          "invoice_id": "INV-2025-025-S",
+          "semester": "Spring 2026",
+          "due": 0,
+          "paid": 0,
+          "balance": 0
+        }
+      ]
+    },
+    "status": "active",
+    "contact": {
+      "address": "1569 Sarah Islands Suite 585\nLake Brianville, AZ 12444",
+      "phone": "197-766-3692x90471"
+    }
+  },
+  {
+    "student_id": "CMU2025-026",
+    "name": "Regina Larsen",
+    "gender": "Male",
+    "dob": "1998-01-21",
+    "nationality": "French Polynesia",
+    "email": "rlarsen26@andrew.cmu.edu",
+    "username": "rlarsen26",
+    "password": "pbkdf2_sha256$b78e5bea3dc6",
+    "program": {
+      "level": "Masters",
+      "department": "Information Systems",
+      "enrollment_year": 2022,
+      "expected_grad_year": 2024,
+      "gpa": 3.93,
+      "courses": [
+        "Enterprise Systems",
+        "Security in Systems",
+        "UX Design"
+      ]
+    },
+    "financials": {
+      "tuition_per_semester": 22000,
+      "scholarship": {
+        "type": "Merit",
+        "amount": 5000
+      },
+      "assistantship": {
+        "role": "RA",
+        "stipend": 2800
+      },
+      "invoices": [
+        {
+          "invoice_id": "INV-2025-026-F",
+          "semester": "Fall 2025",
+          "due": 22000,
+          "paid": 11000,
+          "balance": 11000
+        },
+        {
+          "invoice_id": "INV-2025-026-S",
+          "semester": "Spring 2026",
+          "due": 22000,
+          "paid": 22000,
+          "balance": 0
+        }
+      ]
+    },
+    "status": "active",
+    "contact": {
+      "address": "909 Nelson Mission Apt. 318\nBeckstad, MN 02712",
+      "phone": "(254)069-8849x37792"
+    }
+  },
+  {
+    "student_id": "CMU2025-027",
+    "name": "Mrs. Ashley Lewis MD",
+    "gender": "Male",
+    "dob": "1994-11-18",
+    "nationality": "Bahrain",
+    "email": "mmd27@andrew.cmu.edu",
+    "username": "mmd27",
+    "password": "pbkdf2_sha256$51b11a89378e",
+    "program": {
+      "level": "Masters",
+      "department": "Computer Science",
+      "enrollment_year": 2024,
+      "expected_grad_year": 2026,
+      "gpa": 2.97,
+      "courses": [
+        "Operating Systems",
+        "Databases",
+        "Distributed Systems"
+      ]
+    },
+    "financials": {
+      "tuition_per_semester": 22000,
+      "scholarship": null,
+      "assistantship": null,
+      "invoices": [
+        {
+          "invoice_id": "INV-2025-027-F",
+          "semester": "Fall 2025",
+          "due": 22000,
+          "paid": 11000,
+          "balance": 11000
+        },
+        {
+          "invoice_id": "INV-2025-027-S",
+          "semester": "Spring 2026",
+          "due": 22000,
+          "paid": 0,
+          "balance": 22000
+        }
+      ]
+    },
+    "status": "active",
+    "contact": {
+      "address": "79063 Brian Ports Suite 824\nEast Kevin, PA 40196",
+      "phone": "+1-017-758-3801x34493"
+    }
+  },
+  {
+    "student_id": "CMU2025-028",
+    "name": "Stephanie Young",
+    "gender": "Female",
+    "dob": "1995-03-11",
+    "nationality": "Samoa",
+    "email": "syoung28@andrew.cmu.edu",
+    "username": "syoung28",
+    "password": "pbkdf2_sha256$aecd81dbcd0f",
+    "program": {
+      "level": "Undergraduate",
+      "department": "Robotics",
+      "enrollment_year": 2021,
+      "expected_grad_year": 2025,
+      "gpa": 3.58,
+      "courses": [
+        "AI Robotics",
+        "Control Systems",
+        "Robot Kinematics"
+      ]
+    },
+    "financials": {
+      "tuition_per_semester": 18000,
+      "scholarship": {
+        "type": "Full Fellowship",
+        "amount": 18000
+      },
+      "assistantship": null,
+      "invoices": [
+        {
+          "invoice_id": "INV-2025-028-F",
+          "semester": "Fall 2025",
+          "due": 18000,
+          "paid": 18000,
+          "balance": 0
+        },
+        {
+          "invoice_id": "INV-2025-028-S",
+          "semester": "Spring 2026",
+          "due": 18000,
+          "paid": 0,
+          "balance": 18000
+        }
+      ]
+    },
+    "status": "active",
+    "contact": {
+      "address": "88196 Emily Keys\nWilliamsbury, MA 88313",
+      "phone": "+1-027-268-7569x4202"
+    }
+  },
+  {
+    "student_id": "CMU2025-029",
+    "name": "Cameron Mcdaniel",
+    "gender": "Non-binary",
+    "dob": "2004-03-27",
+    "nationality": "Guatemala",
+    "email": "cmcdaniel29@andrew.cmu.edu",
+    "username": "cmcdaniel29",
+    "password": "pbkdf2_sha256$a35bfe1b697a",
+    "program": {
+      "level": "PhD",
+      "department": "Computer Science",
+      "enrollment_year": 2023,
+      "expected_grad_year": 2028,
+      "gpa": 2.92,
+      "courses": [
+        "Operating Systems",
+        "Databases",
+        "Distributed Systems"
+      ]
+    },
+    "financials": {
+      "tuition_per_semester": 0,
+      "scholarship": {
+        "type": "Merit",
+        "amount": 5000
+      },
+      "assistantship": null,
+      "invoices": [
+        {
+          "invoice_id": "INV-2025-029-F",
+          "semester": "Fall 2025",
+          "due": 0,
+          "paid": 0,
+          "balance": 0
+        },
+        {
+          "invoice_id": "INV-2025-029-S",
+          "semester": "Spring 2026",
+          "due": 0,
+          "paid": 0,
+          "balance": 0
+        }
+      ]
+    },
+    "status": "active",
+    "contact": {
+      "address": "348 Sarah Squares Apt. 240\nJimenezchester, WY 97384",
+      "phone": "001-373-458-1927x236"
+    }
+  },
+  {
+    "student_id": "CMU2025-030",
+    "name": "Calvin Castillo",
+    "gender": "Non-binary",
+    "dob": "1998-05-17",
+    "nationality": "Somalia",
+    "email": "ccastillo30@andrew.cmu.edu",
+    "username": "ccastillo30",
+    "password": "pbkdf2_sha256$b9b5902cc3c6",
+    "program": {
+      "level": "PhD",
+      "department": "Business Analytics",
+      "enrollment_year": 2024,
+      "expected_grad_year": 2029,
+      "gpa": 3.09,
+      "courses": [
+        "Data Mining",
+        "Optimization",
+        "Predictive Modeling"
+      ]
+    },
+    "financials": {
+      "tuition_per_semester": 0,
+      "scholarship": {
+        "type": "Merit",
+        "amount": 5000
+      },
+      "assistantship": {
+        "role": "TA",
+        "stipend": 2800
+      },
+      "invoices": [
+        {
+          "invoice_id": "INV-2025-030-F",
+          "semester": "Fall 2025",
+          "due": 0,
+          "paid": 0,
+          "balance": 0
+        },
+        {
+          "invoice_id": "INV-2025-030-S",
+          "semester": "Spring 2026",
+          "due": 0,
+          "paid": 0,
+          "balance": 0
+        }
+      ]
+    },
+    "status": "active",
+    "contact": {
+      "address": "3919 Alexis Drive\nWest Brian, NY 97804",
+      "phone": "001-961-738-4016x30087"
+    }
+  },
+  {
+    "student_id": "CMU2025-031",
+    "name": "Brian Wagner",
+    "gender": "Male",
+    "dob": "2003-07-24",
+    "nationality": "Moldova",
+    "email": "bwagner31@andrew.cmu.edu",
+    "username": "bwagner31",
+    "password": "pbkdf2_sha256$4c0e3699718c",
+    "program": {
+      "level": "Masters",
+      "department": "Mathematics",
+      "enrollment_year": 2024,
+      "expected_grad_year": 2026,
+      "gpa": 3.37,
+      "courses": [
+        "Topology",
+        "Abstract Algebra",
+        "Real Analysis"
+      ]
+    },
+    "financials": {
+      "tuition_per_semester": 22000,
+      "scholarship": {
+        "type": "Merit",
+        "amount": 5000
+      },
+      "assistantship": null,
+      "invoices": [
+        {
+          "invoice_id": "INV-2025-031-F",
+          "semester": "Fall 2025",
+          "due": 22000,
+          "paid": 22000,
+          "balance": 0
+        },
+        {
+          "invoice_id": "INV-2025-031-S",
+          "semester": "Spring 2026",
+          "due": 22000,
+          "paid": 22000,
+          "balance": 0
+        }
+      ]
+    },
+    "status": "active",
+    "contact": {
+      "address": "52032 Robinson Row\nSamanthabury, MT 92833",
+      "phone": "+1-851-580-4023x3302"
+    }
+  },
+  {
+    "student_id": "CMU2025-032",
+    "name": "Logan Blake",
+    "gender": "Female",
+    "dob": "2005-12-15",
+    "nationality": "Fiji",
+    "email": "lblake32@andrew.cmu.edu",
+    "username": "lblake32",
+    "password": "pbkdf2_sha256$2ecf9b34ef23",
+    "program": {
+      "level": "PhD",
+      "department": "Business Analytics",
+      "enrollment_year": 2024,
+      "expected_grad_year": 2029,
+      "gpa": 2.74,
+      "courses": [
+        "Data Mining",
+        "Predictive Modeling",
+        "Optimization"
+      ]
+    },
+    "financials": {
+      "tuition_per_semester": 0,
+      "scholarship": {
+        "type": "Merit",
+        "amount": 5000
+      },
+      "assistantship": {
+        "role": "TA",
+        "stipend": 2000
+      },
+      "invoices": [
+        {
+          "invoice_id": "INV-2025-032-F",
+          "semester": "Fall 2025",
+          "due": 0,
+          "paid": 0,
+          "balance": 0
+        },
+        {
+          "invoice_id": "INV-2025-032-S",
+          "semester": "Spring 2026",
+          "due": 0,
+          "paid": 0,
+          "balance": 0
+        }
+      ]
+    },
+    "status": "active",
+    "contact": {
+      "address": "Unit 9663 Box 3805\nDPO AE 16109",
+      "phone": "8235689884"
+    }
+  },
+  {
+    "student_id": "CMU2025-033",
+    "name": "Jasmine Allen",
+    "gender": "Male",
+    "dob": "1990-02-08",
+    "nationality": "Honduras",
+    "email": "jallen33@andrew.cmu.edu",
+    "username": "jallen33",
+    "password": "pbkdf2_sha256$8a9e61ca6ab0",
+    "program": {
+      "level": "PhD",
+      "department": "Robotics",
+      "enrollment_year": 2024,
+      "expected_grad_year": 2029,
+      "gpa": 3.74,
+      "courses": [
+        "AI Robotics",
+        "Control Systems",
+        "Robot Kinematics"
+      ]
+    },
+    "financials": {
+      "tuition_per_semester": 0,
+      "scholarship": {
+        "type": "Need-based",
+        "amount": 3000
+      },
+      "assistantship": null,
+      "invoices": [
+        {
+          "invoice_id": "INV-2025-033-F",
+          "semester": "Fall 2025",
+          "due": 0,
+          "paid": 0,
+          "balance": 0
+        },
+        {
+          "invoice_id": "INV-2025-033-S",
+          "semester": "Spring 2026",
+          "due": 0,
+          "paid": 0,
+          "balance": 0
+        }
+      ]
+    },
+    "status": "active",
+    "contact": {
+      "address": "53961 Smith Overpass Suite 032\nNorth Karenfort, CA 24579",
+      "phone": "506-816-7609x2090"
+    }
+  },
+  {
+    "student_id": "CMU2025-034",
+    "name": "Joyce Martin",
+    "gender": "Non-binary",
+    "dob": "1996-09-24",
+    "nationality": "Lesotho",
+    "email": "jmartin34@andrew.cmu.edu",
+    "username": "jmartin34",
+    "password": "pbkdf2_sha256$75b1c7a824ad",
+    "program": {
+      "level": "PhD",
+      "department": "Information Systems",
+      "enrollment_year": 2021,
+      "expected_grad_year": 2026,
+      "gpa": 2.82,
+      "courses": [
+        "Data Management",
+        "Security in Systems",
+        "UX Design"
+      ]
+    },
+    "financials": {
+      "tuition_per_semester": 0,
+      "scholarship": null,
+      "assistantship": {
+        "role": "TA",
+        "stipend": 2800
+      },
+      "invoices": [
+        {
+          "invoice_id": "INV-2025-034-F",
+          "semester": "Fall 2025",
+          "due": 0,
+          "paid": 0,
+          "balance": 0
+        },
+        {
+          "invoice_id": "INV-2025-034-S",
+          "semester": "Spring 2026",
+          "due": 0,
+          "paid": 0,
+          "balance": 0
+        }
+      ]
+    },
+    "status": "active",
+    "contact": {
+      "address": "172 Scott Turnpike Suite 152\nJenniferside, SD 32061",
+      "phone": "(517)734-3786"
+    }
+  },
+  {
+    "student_id": "CMU2025-035",
+    "name": "David Graham",
+    "gender": "Male",
+    "dob": "2005-10-14",
+    "nationality": "Tokelau",
+    "email": "dgraham35@andrew.cmu.edu",
+    "username": "dgraham35",
+    "password": "pbkdf2_sha256$8a5f7dc7f238",
+    "program": {
+      "level": "PhD",
+      "department": "Robotics",
+      "enrollment_year": 2023,
+      "expected_grad_year": 2028,
+      "gpa": 3.39,
+      "courses": [
+        "AI Robotics",
+        "Vision for Robotics",
+        "Control Systems"
+      ]
+    },
+    "financials": {
+      "tuition_per_semester": 0,
+      "scholarship": {
+        "type": "Need-based",
+        "amount": 3000
+      },
+      "assistantship": {
+        "role": "TA",
+        "stipend": 2000
+      },
+      "invoices": [
+        {
+          "invoice_id": "INV-2025-035-F",
+          "semester": "Fall 2025",
+          "due": 0,
+          "paid": 0,
+          "balance": 0
+        },
+        {
+          "invoice_id": "INV-2025-035-S",
+          "semester": "Spring 2026",
+          "due": 0,
+          "paid": 0,
+          "balance": 0
+        }
+      ]
+    },
+    "status": "active",
+    "contact": {
+      "address": "USCGC Browning\nFPO AP 37082",
+      "phone": "001-079-221-4255"
+    }
+  },
+  {
+    "student_id": "CMU2025-036",
+    "name": "Jessica Blake",
+    "gender": "Female",
+    "dob": "2004-10-22",
+    "nationality": "Mauritius",
+    "email": "jblake36@andrew.cmu.edu",
+    "username": "jblake36",
+    "password": "pbkdf2_sha256$47f5ce3ebab4",
+    "program": {
+      "level": "Masters",
+      "department": "Computer Science",
+      "enrollment_year": 2023,
+      "expected_grad_year": 2025,
+      "gpa": 2.77,
+      "courses": [
+        "Distributed Systems",
+        "Operating Systems",
+        "Machine Learning"
+      ]
+    },
+    "financials": {
+      "tuition_per_semester": 22000,
+      "scholarship": {
+        "type": "Need-based",
+        "amount": 3000
+      },
+      "assistantship": {
+        "role": "RA",
+        "stipend": 2000
+      },
+      "invoices": [
+        {
+          "invoice_id": "INV-2025-036-F",
+          "semester": "Fall 2025",
+          "due": 22000,
+          "paid": 11000,
+          "balance": 11000
+        },
+        {
+          "invoice_id": "INV-2025-036-S",
+          "semester": "Spring 2026",
+          "due": 22000,
+          "paid": 11000,
+          "balance": 11000
+        }
+      ]
+    },
+    "status": "active",
+    "contact": {
+      "address": "0882 Karen Route\nLake Dawntown, IA 80423",
+      "phone": "(290)060-6204x83082"
+    }
+  },
+  {
+    "student_id": "CMU2025-037",
+    "name": "Edward Davis",
+    "gender": "Male",
+    "dob": "2000-08-13",
+    "nationality": "Vanuatu",
+    "email": "edavis37@andrew.cmu.edu",
+    "username": "edavis37",
+    "password": "pbkdf2_sha256$2bd2c18f72b6",
+    "program": {
+      "level": "PhD",
+      "department": "Design",
+      "enrollment_year": 2022,
+      "expected_grad_year": 2027,
+      "gpa": 3.1,
+      "courses": [
+        "Visual Communication",
+        "Human-Centered Design",
+        "Interaction Design"
+      ]
+    },
+    "financials": {
+      "tuition_per_semester": 0,
+      "scholarship": {
+        "type": "Full Fellowship",
+        "amount": 0
+      },
+      "assistantship": {
+        "role": "RA",
+        "stipend": 2800
+      },
+      "invoices": [
+        {
+          "invoice_id": "INV-2025-037-F",
+          "semester": "Fall 2025",
+          "due": 0,
+          "paid": 0,
+          "balance": 0
+        },
+        {
+          "invoice_id": "INV-2025-037-S",
+          "semester": "Spring 2026",
+          "due": 0,
+          "paid": 0,
+          "balance": 0
+        }
+      ]
+    },
+    "status": "active",
+    "contact": {
+      "address": "8580 Lisa Village\nGriffinfort, WV 47359",
+      "phone": "(916)698-7769"
+    }
+  },
+  {
+    "student_id": "CMU2025-038",
+    "name": "Jeremy Carter",
+    "gender": "Female",
+    "dob": "1998-04-13",
+    "nationality": "Sudan",
+    "email": "jcarter38@andrew.cmu.edu",
+    "username": "jcarter38",
+    "password": "pbkdf2_sha256$ad740f1ef0be",
+    "program": {
+      "level": "PhD",
+      "department": "Physics",
+      "enrollment_year": 2022,
+      "expected_grad_year": 2027,
+      "gpa": 2.56,
+      "courses": [
+        "Statistical Mechanics",
+        "Quantum Mechanics",
+        "Electrodynamics"
+      ]
+    },
+    "financials": {
+      "tuition_per_semester": 0,
+      "scholarship": {
+        "type": "Merit",
+        "amount": 5000
+      },
+      "assistantship": null,
+      "invoices": [
+        {
+          "invoice_id": "INV-2025-038-F",
+          "semester": "Fall 2025",
+          "due": 0,
+          "paid": 0,
+          "balance": 0
+        },
+        {
+          "invoice_id": "INV-2025-038-S",
+          "semester": "Spring 2026",
+          "due": 0,
+          "paid": 0,
+          "balance": 0
+        }
+      ]
+    },
+    "status": "active",
+    "contact": {
+      "address": "1633 King Canyon Suite 081\nAndreamouth, MI 75367",
+      "phone": "881-131-1473x2001"
+    }
+  },
+  {
+    "student_id": "CMU2025-039",
+    "name": "David Morris",
+    "gender": "Male",
+    "dob": "2003-01-17",
+    "nationality": "Holy See (Vatican City State)",
+    "email": "dmorris39@andrew.cmu.edu",
+    "username": "dmorris39",
+    "password": "pbkdf2_sha256$36a08c9b1ee2",
+    "program": {
+      "level": "Undergraduate",
+      "department": "Computer Science",
+      "enrollment_year": 2022,
+      "expected_grad_year": 2026,
+      "gpa": 3.92,
+      "courses": [
+        "Databases",
+        "Distributed Systems",
+        "Advanced Algorithms"
+      ]
+    },
+    "financials": {
+      "tuition_per_semester": 18000,
+      "scholarship": {
+        "type": "Merit",
+        "amount": 5000
+      },
+      "assistantship": null,
+      "invoices": [
+        {
+          "invoice_id": "INV-2025-039-F",
+          "semester": "Fall 2025",
+          "due": 18000,
+          "paid": 9000,
+          "balance": 9000
+        },
+        {
+          "invoice_id": "INV-2025-039-S",
+          "semester": "Spring 2026",
+          "due": 18000,
+          "paid": 0,
+          "balance": 18000
+        }
+      ]
+    },
+    "status": "active",
+    "contact": {
+      "address": "9409 Torres Center\nJenkinschester, AZ 69002",
+      "phone": "183.424.2930x3522"
+    }
+  },
+  {
+    "student_id": "CMU2025-040",
+    "name": "Nathan Potter",
+    "gender": "Male",
+    "dob": "2001-04-01",
+    "nationality": "Gibraltar",
+    "email": "npotter40@andrew.cmu.edu",
+    "username": "npotter40",
+    "password": "pbkdf2_sha256$7b68484a64c7",
+    "program": {
+      "level": "Masters",
+      "department": "Physics",
+      "enrollment_year": 2021,
+      "expected_grad_year": 2023,
+      "gpa": 3.38,
+      "courses": [
+        "Statistical Mechanics",
+        "Electrodynamics",
+        "Quantum Mechanics"
+      ]
+    },
+    "financials": {
+      "tuition_per_semester": 22000,
+      "scholarship": {
+        "type": "Need-based",
+        "amount": 3000
+      },
+      "assistantship": {
+        "role": "TA",
+        "stipend": 2800
+      },
+      "invoices": [
+        {
+          "invoice_id": "INV-2025-040-F",
+          "semester": "Fall 2025",
+          "due": 22000,
+          "paid": 22000,
+          "balance": 0
+        },
+        {
+          "invoice_id": "INV-2025-040-S",
+          "semester": "Spring 2026",
+          "due": 22000,
+          "paid": 0,
+          "balance": 22000
+        }
+      ]
+    },
+    "status": "active",
+    "contact": {
+      "address": "9097 Warren Fork\nEast James, SD 68804",
+      "phone": "313-372-2309"
+    }
+  },
+  {
+    "student_id": "CMU2025-041",
+    "name": "Katherine Abbott",
+    "gender": "Non-binary",
+    "dob": "1989-12-17",
+    "nationality": "Guadeloupe",
+    "email": "kabbott41@andrew.cmu.edu",
+    "username": "kabbott41",
+    "password": "pbkdf2_sha256$2db579f1184c",
+    "program": {
+      "level": "Masters",
+      "department": "Information Systems",
+      "enrollment_year": 2024,
+      "expected_grad_year": 2026,
+      "gpa": 2.95,
+      "courses": [
+        "Security in Systems",
+        "Data Management",
+        "Enterprise Systems"
+      ]
+    },
+    "financials": {
+      "tuition_per_semester": 22000,
+      "scholarship": {
+        "type": "Need-based",
+        "amount": 3000
+      },
+      "assistantship": null,
+      "invoices": [
+        {
+          "invoice_id": "INV-2025-041-F",
+          "semester": "Fall 2025",
+          "due": 22000,
+          "paid": 0,
+          "balance": 22000
+        },
+        {
+          "invoice_id": "INV-2025-041-S",
+          "semester": "Spring 2026",
+          "due": 22000,
+          "paid": 0,
+          "balance": 22000
+        }
+      ]
+    },
+    "status": "active",
+    "contact": {
+      "address": "35797 Rosario Lodge\nNew Danielland, PA 39229",
+      "phone": "(112)205-1052"
+    }
+  },
+  {
+    "student_id": "CMU2025-042",
+    "name": "Diane Brown",
+    "gender": "Female",
+    "dob": "1993-06-21",
+    "nationality": "Antarctica (the territory South of 60 deg S)",
+    "email": "dbrown42@andrew.cmu.edu",
+    "username": "dbrown42",
+    "password": "pbkdf2_sha256$8b57fb06efda",
+    "program": {
+      "level": "Masters",
+      "department": "Mathematics",
+      "enrollment_year": 2023,
+      "expected_grad_year": 2025,
+      "gpa": 3.46,
+      "courses": [
+        "Topology",
+        "Abstract Algebra",
+        "Real Analysis"
+      ]
+    },
+    "financials": {
+      "tuition_per_semester": 22000,
+      "scholarship": {
+        "type": "Full Fellowship",
+        "amount": 22000
+      },
+      "assistantship": null,
+      "invoices": [
+        {
+          "invoice_id": "INV-2025-042-F",
+          "semester": "Fall 2025",
+          "due": 22000,
+          "paid": 0,
+          "balance": 22000
+        },
+        {
+          "invoice_id": "INV-2025-042-S",
+          "semester": "Spring 2026",
+          "due": 22000,
+          "paid": 0,
+          "balance": 22000
+        }
+      ]
+    },
+    "status": "active",
+    "contact": {
+      "address": "8872 Scott View\nNorth Edgar, MA 40982",
+      "phone": "(923)190-9555"
+    }
+  },
+  {
+    "student_id": "CMU2025-043",
+    "name": "Christina Thomas",
+    "gender": "Non-binary",
+    "dob": "1997-07-15",
+    "nationality": "Israel",
+    "email": "cthomas43@andrew.cmu.edu",
+    "username": "cthomas43",
+    "password": "pbkdf2_sha256$64e9b5cc3237",
+    "program": {
+      "level": "Undergraduate",
+      "department": "Robotics",
+      "enrollment_year": 2022,
+      "expected_grad_year": 2026,
+      "gpa": 3.6,
+      "courses": [
+        "AI Robotics",
+        "Robot Kinematics",
+        "Control Systems"
+      ]
+    },
+    "financials": {
+      "tuition_per_semester": 18000,
+      "scholarship": {
+        "type": "Merit",
+        "amount": 5000
+      },
+      "assistantship": null,
+      "invoices": [
+        {
+          "invoice_id": "INV-2025-043-F",
+          "semester": "Fall 2025",
+          "due": 18000,
+          "paid": 18000,
+          "balance": 0
+        },
+        {
+          "invoice_id": "INV-2025-043-S",
+          "semester": "Spring 2026",
+          "due": 18000,
+          "paid": 18000,
+          "balance": 0
+        }
+      ]
+    },
+    "status": "active",
+    "contact": {
+      "address": "157 Warren Court\nEast Tyler, NY 18642",
+      "phone": "315.679.1103x949"
+    }
+  },
+  {
+    "student_id": "CMU2025-044",
+    "name": "Andrea Cook",
+    "gender": "Female",
+    "dob": "1995-04-22",
+    "nationality": "Belize",
+    "email": "acook44@andrew.cmu.edu",
+    "username": "acook44",
+    "password": "pbkdf2_sha256$2c2be4ca48ca",
+    "program": {
+      "level": "PhD",
+      "department": "Mechanical Engineering",
+      "enrollment_year": 2024,
+      "expected_grad_year": 2029,
+      "gpa": 3.05,
+      "courses": [
+        "Thermodynamics II",
+        "Computational Fluid Dynamics",
+        "Finite Element Methods"
+      ]
+    },
+    "financials": {
+      "tuition_per_semester": 0,
+      "scholarship": {
+        "type": "Need-based",
+        "amount": 3000
+      },
+      "assistantship": {
+        "role": "RA",
+        "stipend": 2500
+      },
+      "invoices": [
+        {
+          "invoice_id": "INV-2025-044-F",
+          "semester": "Fall 2025",
+          "due": 0,
+          "paid": 0,
+          "balance": 0
+        },
+        {
+          "invoice_id": "INV-2025-044-S",
+          "semester": "Spring 2026",
+          "due": 0,
+          "paid": 0,
+          "balance": 0
+        }
+      ]
+    },
+    "status": "active",
+    "contact": {
+      "address": "414 Vicki Circles\nJoshuahaven, NM 71534",
+      "phone": "105-564-1606"
+    }
+  },
+  {
+    "student_id": "CMU2025-045",
+    "name": "Danny Chapman",
+    "gender": "Male",
+    "dob": "1997-08-17",
+    "nationality": "Lesotho",
+    "email": "dchapman45@andrew.cmu.edu",
+    "username": "dchapman45",
+    "password": "pbkdf2_sha256$6651fe726922",
+    "program": {
+      "level": "PhD",
+      "department": "Robotics",
+      "enrollment_year": 2023,
+      "expected_grad_year": 2028,
+      "gpa": 3.3,
+      "courses": [
+        "AI Robotics",
+        "Robot Kinematics",
+        "Vision for Robotics"
+      ]
+    },
+    "financials": {
+      "tuition_per_semester": 0,
+      "scholarship": null,
+      "assistantship": {
+        "role": "RA",
+        "stipend": 1800
+      },
+      "invoices": [
+        {
+          "invoice_id": "INV-2025-045-F",
+          "semester": "Fall 2025",
+          "due": 0,
+          "paid": 0,
+          "balance": 0
+        },
+        {
+          "invoice_id": "INV-2025-045-S",
+          "semester": "Spring 2026",
+          "due": 0,
+          "paid": 0,
+          "balance": 0
+        }
+      ]
+    },
+    "status": "active",
+    "contact": {
+      "address": "35091 Baker River Suite 972\nNorth Carrie, FL 68378",
+      "phone": "7336715945"
+    }
+  },
+  {
+    "student_id": "CMU2025-046",
+    "name": "Phillip Robbins",
+    "gender": "Female",
+    "dob": "1991-12-12",
+    "nationality": "Cambodia",
+    "email": "probbins46@andrew.cmu.edu",
+    "username": "probbins46",
+    "password": "pbkdf2_sha256$e377d1cea0ae",
+    "program": {
+      "level": "PhD",
+      "department": "Public Policy",
+      "enrollment_year": 2023,
+      "expected_grad_year": 2028,
+      "gpa": 2.57,
+      "courses": [
+        "Econometrics",
+        "Policy Analysis",
+        "Public Finance"
+      ]
+    },
+    "financials": {
+      "tuition_per_semester": 0,
+      "scholarship": {
+        "type": "Merit",
+        "amount": 5000
+      },
+      "assistantship": null,
+      "invoices": [
+        {
+          "invoice_id": "INV-2025-046-F",
+          "semester": "Fall 2025",
+          "due": 0,
+          "paid": 0,
+          "balance": 0
+        },
+        {
+          "invoice_id": "INV-2025-046-S",
+          "semester": "Spring 2026",
+          "due": 0,
+          "paid": 0,
+          "balance": 0
+        }
+      ]
+    },
+    "status": "active",
+    "contact": {
+      "address": "0617 Stephen Heights Apt. 968\nLake Debra, SD 98671",
+      "phone": "(814)704-5166"
+    }
+  },
+  {
+    "student_id": "CMU2025-047",
+    "name": "Nancy Trujillo MD",
+    "gender": "Female",
+    "dob": "1996-05-25",
+    "nationality": "Syrian Arab Republic",
+    "email": "nmd47@andrew.cmu.edu",
+    "username": "nmd47",
+    "password": "pbkdf2_sha256$d90c7bc8a42d",
+    "program": {
+      "level": "PhD",
+      "department": "Information Systems",
+      "enrollment_year": 2024,
+      "expected_grad_year": 2029,
+      "gpa": 3.1,
+      "courses": [
+        "Security in Systems",
+        "UX Design",
+        "Enterprise Systems"
+      ]
+    },
+    "financials": {
+      "tuition_per_semester": 0,
+      "scholarship": null,
+      "assistantship": {
+        "role": "RA",
+        "stipend": 1800
+      },
+      "invoices": [
+        {
+          "invoice_id": "INV-2025-047-F",
+          "semester": "Fall 2025",
+          "due": 0,
+          "paid": 0,
+          "balance": 0
+        },
+        {
+          "invoice_id": "INV-2025-047-S",
+          "semester": "Spring 2026",
+          "due": 0,
+          "paid": 0,
+          "balance": 0
+        }
+      ]
+    },
+    "status": "active",
+    "contact": {
+      "address": "90854 Stewart Path\nErictown, PA 46239",
+      "phone": "594-542-9560"
+    }
+  },
+  {
+    "student_id": "CMU2025-048",
+    "name": "Michael Fry",
+    "gender": "Female",
+    "dob": "1996-12-06",
+    "nationality": "Gibraltar",
+    "email": "mfry48@andrew.cmu.edu",
+    "username": "mfry48",
+    "password": "pbkdf2_sha256$a36bd75e60b5",
+    "program": {
+      "level": "Masters",
+      "department": "Mathematics",
+      "enrollment_year": 2021,
+      "expected_grad_year": 2023,
+      "gpa": 2.75,
+      "courses": [
+        "Topology",
+        "Real Analysis",
+        "Abstract Algebra"
+      ]
+    },
+    "financials": {
+      "tuition_per_semester": 22000,
+      "scholarship": {
+        "type": "Need-based",
+        "amount": 3000
+      },
+      "assistantship": {
+        "role": "RA",
+        "stipend": 1800
+      },
+      "invoices": [
+        {
+          "invoice_id": "INV-2025-048-F",
+          "semester": "Fall 2025",
+          "due": 22000,
+          "paid": 22000,
+          "balance": 0
+        },
+        {
+          "invoice_id": "INV-2025-048-S",
+          "semester": "Spring 2026",
+          "due": 22000,
+          "paid": 11000,
+          "balance": 11000
+        }
+      ]
+    },
+    "status": "active",
+    "contact": {
+      "address": "27310 Rebecca Crossing\nShawntown, MO 85059",
+      "phone": "+1-174-196-8031"
+    }
+  },
+  {
+    "student_id": "CMU2025-049",
+    "name": "Brad Simmons",
+    "gender": "Non-binary",
+    "dob": "2007-05-13",
+    "nationality": "American Samoa",
+    "email": "bsimmons49@andrew.cmu.edu",
+    "username": "bsimmons49",
+    "password": "pbkdf2_sha256$959e430ab82f",
+    "program": {
+      "level": "PhD",
+      "department": "Business Analytics",
+      "enrollment_year": 2022,
+      "expected_grad_year": 2027,
+      "gpa": 3.41,
+      "courses": [
+        "Data Mining",
+        "Predictive Modeling",
+        "Optimization"
+      ]
+    },
+    "financials": {
+      "tuition_per_semester": 0,
+      "scholarship": {
+        "type": "Merit",
+        "amount": 5000
+      },
+      "assistantship": null,
+      "invoices": [
+        {
+          "invoice_id": "INV-2025-049-F",
+          "semester": "Fall 2025",
+          "due": 0,
+          "paid": 0,
+          "balance": 0
+        },
+        {
+          "invoice_id": "INV-2025-049-S",
+          "semester": "Spring 2026",
+          "due": 0,
+          "paid": 0,
+          "balance": 0
+        }
+      ]
+    },
+    "status": "active",
+    "contact": {
+      "address": "5889 Hernandez Trafficway Suite 597\nNew Michael, SD 12909",
+      "phone": "(274)386-4286x658"
+    }
+  },
+  {
+    "student_id": "CMU2025-050",
+    "name": "Adam Bailey",
+    "gender": "Female",
+    "dob": "2003-07-14",
+    "nationality": "French Guiana",
+    "email": "abailey50@andrew.cmu.edu",
+    "username": "abailey50",
+    "password": "pbkdf2_sha256$0b306a95f0ad",
+    "program": {
+      "level": "Masters",
+      "department": "Electrical Engineering",
+      "enrollment_year": 2022,
+      "expected_grad_year": 2024,
+      "gpa": 2.58,
+      "courses": [
+        "Signals and Systems",
+        "Electromagnetics",
+        "Circuits I"
+      ]
+    },
+    "financials": {
+      "tuition_per_semester": 22000,
+      "scholarship": {
+        "type": "Full Fellowship",
+        "amount": 22000
+      },
+      "assistantship": {
+        "role": "RA",
+        "stipend": 2000
+      },
+      "invoices": [
+        {
+          "invoice_id": "INV-2025-050-F",
+          "semester": "Fall 2025",
+          "due": 22000,
+          "paid": 22000,
+          "balance": 0
+        },
+        {
+          "invoice_id": "INV-2025-050-S",
+          "semester": "Spring 2026",
+          "due": 22000,
+          "paid": 11000,
+          "balance": 11000
+        }
+      ]
+    },
+    "status": "active",
+    "contact": {
+      "address": "641 Burton Landing Suite 130\nMoorefurt, DC 22286",
+      "phone": "001-417-695-4664"
+    }
+  }
+]

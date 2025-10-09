@@ -1,3 +1,21 @@
+'''
+-----------------------------------------------------------------------------
+Project:     brok@CMU
+File:        config.py
+Purpose:     Centralized configuration module for environment variables and
+             external constants. Loads API keys, scraper URLs, request settings,
+             and user-agent headers used throughout the Streamlit application
+             and data processing scripts.
+
+Course:      95-888 Data Focused Python (Fall 2025, Section B1)
+Team:        Pink Team
+Members:     Meghana Dhruv (meghanad), Yiying Lu (yiyinglu),
+             Shreya Verma (shreyave), Mengzhang Yin (mengzhay),
+             Malikah Nathani (mnathani)
+-----------------------------------------------------------------------------
+'''
+
+
 import os
 from dotenv import load_dotenv
 load_dotenv()

@@ -1,3 +1,21 @@
+'''
+-----------------------------------------------------------------------------
+Project:     brok@CMU
+File:        tuition.py
+Purpose:     Provides data utilities for loading, cleaning, and matching CMU
+             tuition datasets. Supports preprocessing of multi-sheet Excel files,
+             normalization of tuition units, and fuzzy-matching logic to map
+             student records to corresponding tuition information.
+
+Course:      95-888 Data Focused Python (Fall 2025, Section B1)
+Team:        Pink Team
+Members:     Meghana Dhruv (meghanad), Yiying Lu (yiyinglu),
+             Shreya Verma (shreyave), Mengzhang Yin (mengzhay),
+             Malikah Nathani (mnathani)
+-----------------------------------------------------------------------------
+'''
+
+
 import pandas as pd
 import re
 import difflib

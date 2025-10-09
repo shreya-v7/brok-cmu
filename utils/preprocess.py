@@ -1,3 +1,21 @@
+'''
+-----------------------------------------------------------------------------
+Project:     brok@CMU
+File:        preprocess.py
+Purpose:     Cleans and consolidates CMU tuition data from undergraduate and
+             graduate sheets into a single unified dataset. Standardizes column
+             formats, removes duplicates, and exports a processed Excel file
+             for downstream analysis and visualization within the dashboard.
+
+Course:      95-888 Data Focused Python (Fall 2025, Section B1)
+Team:        Pink Team
+Members:     Meghana Dhruv (meghanad), Yiying Lu (yiyinglu),
+             Shreya Verma (shreyave), Mengzhang Yin (mengzhay),
+             Malikah Nathani (mnathani)
+-----------------------------------------------------------------------------
+'''
+
+
 import pandas as pd
 
 INPUT = "data/cmu_tuition_clean.xlsx"

@@ -1,3 +1,21 @@
+'''
+-----------------------------------------------------------------------------
+Project:     brok@CMU
+File:        loans.py
+Purpose:     Scrapes and summarizes federal and private student loan data from
+             multiple trusted financial sources (Studentaid.gov, Credible,
+             SoFi). Extracts key rates, loan insights, and sample statistics
+             for financial comparison and display within the Streamlit app.
+
+Course:      95-888 Data Focused Python (Fall 2025, Section B1)
+Team:        Pink Team
+Members:     Meghana Dhruv (meghanad), Yiying Lu (yiyinglu),
+             Shreya Verma (shreyave), Mengzhang Yin (mengzhay),
+             Malikah Nathani (mnathani)
+-----------------------------------------------------------------------------
+'''
+
+
 import requests, pandas as pd, re
 from bs4 import BeautifulSoup
 from utils.caching import timed_lru_cache

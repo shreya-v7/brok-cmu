@@ -1,3 +1,22 @@
+'''
+-----------------------------------------------------------------------------
+Project:     brok@CMU
+File:        app.py
+Purpose:     Main Streamlit application for the CMU Student Financial Advisor
+             Dashboard. Integrates tuition analytics, cost-of-living insights,
+             student expense auditing, and AI-driven financial advising using
+             Gemini. Enables interactive exploration of tuition data,
+             scholarships, living costs, and personalized advisory chat.
+
+Course:      95-888 Data Focused Python (Fall 2025, Section B1)
+Team:        Pink Team
+Members:     Meghana Dhruv (meghanad), Yiying Lu (yiyinglu),
+             Shreya Verma (shreyave), Mengzhang Yin (mengzhay),
+             Malikah Nathani (mnathani)
+-----------------------------------------------------------------------------
+'''
+
+
 import json
 import re
 

@@ -1,21 +1,3 @@
-#!/usr/bin/env python3
-# -*- coding: utf-8 -*-
-
-"""
-CMU Tuition & Fees Scraper (Undergrad + Graduate, program-wise, no hardcoding)
-
-Outputs: cmu_tuition_clean.xlsx
-Sheets:
-  - Undergraduate: complete tuition + fees across undergraduate subtree
-  - Graduate: program-wise tuition + fees across graduate subtree
-
-Design:
-- Discover links dynamically (no hardcoded college/program lists)
-- Parse both tables and inline fee lines
-- Normalize $ amounts → floats; detect unit (per_year/semester/unit/credit/course/term/unknown)
-- Robust against layout noise: skips bad tables, 404s, and archives (configurable)
-"""
-
 import re
 import time
 from io import StringIO

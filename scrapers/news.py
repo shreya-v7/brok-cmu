@@ -1,3 +1,20 @@
+'''
+-----------------------------------------------------------------------------
+Project:     brok@CMU
+File:        news.py
+Purpose:     Scrapes and parses the latest CMU, Pittsburgh, and education-related
+             headlines from Google News RSS. Cleans and structures the data into
+             a DataFrame for display and analysis within the Streamlit dashboard.
+
+Course:      95-888 Data Focused Python (Fall 2025, Section B1)
+Team:        Pink Team
+Members:     Meghana Dhruv (meghanad), Yiying Lu (yiyinglu),
+             Shreya Verma (shreyave), Mengzhang Yin (mengzhay),
+             Malikah Nathani (mnathani)
+-----------------------------------------------------------------------------
+'''
+
+
 import requests
 import pandas as pd
 from bs4 import BeautifulSoup

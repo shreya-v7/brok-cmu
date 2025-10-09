@@ -1,3 +1,21 @@
+'''
+-----------------------------------------------------------------------------
+Project:     brok@CMU
+File:        caching.py
+Purpose:     Implements lightweight time-aware caching utilities using Python’s
+             built-in functools.lru_cache. The `timed_lru_cache` decorator adds
+             automatic cache expiration based on a specified TTL (time-to-live),
+             improving performance for repeated web requests and computations.
+
+Course:      95-888 Data Focused Python (Fall 2025, Section B1)
+Team:        Pink Team
+Members:     Meghana Dhruv (meghanad), Yiying Lu (yiyinglu),
+             Shreya Verma (shreyave), Mengzhang Yin (mengzhay),
+             Malikah Nathani (mnathani)
+-----------------------------------------------------------------------------
+'''
+
+
 import time
 from functools import lru_cache
 

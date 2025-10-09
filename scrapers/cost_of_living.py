@@ -1,3 +1,19 @@
+'''
+-----------------------------------------------------------------------------
+Project:     brok@CMU
+File:        cost_of_living.py
+Purpose:     Fetches Pittsburgh cost-of-living data, summarizes student
+             expenses, and compares them via Streamlit visualizations.
+
+Course:      95-888 Data Focused Python (Fall 2025, Section B1)
+Team:        Pink Team
+Members:     Meghana Dhruv (meghanad), Yiying Lu (yiyinglu),
+             Shreya Verma (shreyave), Mengzhang Yin (mengzhay),
+             Malikah Nathani (mnathani)
+-----------------------------------------------------------------------------
+'''
+
+
 import requests
 import pandas as pd
 from bs4 import BeautifulSoup

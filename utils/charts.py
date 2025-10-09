@@ -1,3 +1,21 @@
+'''
+-----------------------------------------------------------------------------
+Project:     brok@CMU
+File:        charts.py
+Purpose:     Provides charting utilities for visualizing financial data.
+             Includes Plotly-based rendering functions such as `budget_pie`
+             for displaying monthly budget distributions interactively within
+             the Streamlit dashboard.
+
+Course:      95-888 Data Focused Python (Fall 2025, Section B1)
+Team:        Pink Team
+Members:     Meghana Dhruv (meghanad), Yiying Lu (yiyinglu),
+             Shreya Verma (shreyave), Mengzhang Yin (mengzhay),
+             Malikah Nathani (mnathani)
+-----------------------------------------------------------------------------
+'''
+
+
 import plotly.graph_objects as go
 
 def budget_pie(monthly_dict: dict):

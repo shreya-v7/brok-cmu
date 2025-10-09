@@ -22,7 +22,6 @@ from scrapers.cost_of_living import (
     render_cost_of_living_comparison
 )
 
-
 # ------------------------------------
 #  Streamlit Setup
 # ------------------------------------
@@ -46,7 +45,6 @@ tuition_clean = dedupe_tuition(normalize_tuition_units(tuition_raw))
 EXPENSES_PATH = "data/cmu_mock_expenses_audit.json"
 student_expenses = json.load(open(EXPENSES_PATH))
 
-
 # ------------------------------------
 #  Sidebar Navigation
 # ------------------------------------
@@ -55,7 +53,7 @@ student_names = [s.get("name", "Unknown") for s in students]
 selected_name = st.sidebar.selectbox("Choose Student", student_names)
 student = next(s for s in students if s.get("name") == selected_name)
 expense_record = next((e for e in student_expenses if e.get("name") == selected_name), None)
-page = st.sidebar.radio("Navigate", ["Overview", "Finances & Living", "News"])
+page = st.sidebar.radio("Navigate", ["Overview", "News"])
 
 # ------------------------------------
 #  Helper Functions
@@ -75,7 +73,6 @@ def extract_numeric(val):
     return float(match.group(1)) if match else None
 
 def get_student_keywords(student):
-    """Return keywords for tuition filtering."""
     p = student.get("program", {})
     kws = set()
     for key in ["school", "department", "level"]:
@@ -87,7 +84,6 @@ def get_student_keywords(student):
     return list(kws)
 
 def get_tuition_for_student(df, student):
-    """Match by school, department, or course name."""
     p = student.get("program", {})
     school, dept = p.get("school", ""), p.get("department", "")
     subset = filter_by_school_and_known_units(df, school, dept)
@@ -100,11 +96,12 @@ def get_tuition_for_student(df, student):
     return pd.DataFrame(columns=df.columns), "—"
 
 # ------------------------------------
-#  Overview Page
+#  Overview Page (Merged with Finances)
 # ------------------------------------
 if page == "Overview":
     prog = student.get("program", {})
     fin = student.get("financials", {})
+    tuition_df, matched_key = get_tuition_for_student(tuition_clean, student)
 
     st.subheader(f"👤 {student.get('name','—')}")
     c1, c2, c3 = st.columns(3)
@@ -123,161 +120,8 @@ if page == "Overview":
     st.markdown("**Courses:** " + ", ".join(prog.get("courses", []) or ["—"]))
     st.divider()
 
-    # --------------------------------------------------
-    # 💬 Interactive Advisory Chat (after AI Advisory)
-    # --------------------------------------------------
-
-    st.subheader("💬 Student Advisory Chat")
-
-    # Initialize chat session per student
-    if "chat_history" not in st.session_state:
-        st.session_state.chat_history = []
-    if "active_student" not in st.session_state:
-        st.session_state.active_student = selected_name
-
-    # If a new student is selected, reset chat history
-    if st.session_state.active_student != selected_name:
-        st.session_state.chat_history = []
-        st.session_state.active_student = selected_name
-
-    # Display chat history
-    for msg in st.session_state.chat_history:
-        with st.chat_message(msg["role"]):
-            st.markdown(msg["content"])
-
-    # Student objective input
-    if prompt := st.chat_input("Ask about your finances, tuition, or CMU life..."):
-        # Show user message
-        st.chat_message("user").markdown(prompt)
-        st.session_state.chat_history.append({"role": "user", "content": prompt})
-
-        # Build context dynamically
-        prog = student.get("program", {})
-        fin = student.get("financials", {})
-
-        student_context = f"""
-        Student: {student.get('name')}
-        ID: {student.get('student_id')}
-        Level: {prog.get('level')}
-        Department: {prog.get('department')}
-        School: {prog.get('school')}
-        GPA: {prog.get('gpa')}
-        Tuition per semester: {fin.get('tuition_per_semester')}
-        Scholarship: {fin.get('scholarship')}
-        Assistantship: {fin.get('assistantship')}
-        Invoices: {fin.get('invoices')}
-        """
-
-        tuition_df, matched_key = get_tuition_for_student(tuition_clean, student)
-        col_df = fetch_pittsburgh_cost_of_living()
-
-        tuition_context = tuition_df.head(5).to_dict(orient="records") if not tuition_df.empty else "N/A"
-        col_context = col_df.head(5).to_dict(orient="records") if not col_df.empty else "N/A"
-
-        if expense_record:
-            expense_context = expense_record["expenses"]["monthly"]
-        else:
-            expense_context = "N/A"
-
-        # Full LLM prompt with expenses added
-        full_prompt = f"""
-        You are Brok, an academic and financial advisor for Carnegie Mellon students.
-        Use the student's data and context to give clear, factual advice.
-
-        Student context:
-        {student_context}
-
-        Monthly Expense context (from audit data):
-        {json.dumps(expense_context, indent=2)}
-
-        Tuition context:
-        {tuition_context}
-
-        Cost of living (Pittsburgh averages):
-        {col_context}
-
-        Student's input:
-        {prompt}
-
-        Please respond with structured, helpful advice — use short paragraphs, clear comparisons,
-        and provide actionable financial recommendations (budgeting, housing, food, or transport tips).
-        """
-
-        # Generate model response
-        if GEMINI_API_KEY:
-            genai.configure(api_key=GEMINI_API_KEY)
-            with st.chat_message("assistant"):
-                with st.spinner("Thinking..."):
-                    model = genai.GenerativeModel("gemini-2.5-pro")
-                    res = model.generate_content(full_prompt)
-                    response_text = res.text or "No response generated."
-                    st.markdown(response_text)
-                    st.session_state.chat_history.append({"role": "assistant", "content": response_text})
-        else:
-            st.warning("⚠️ Please configure your GEMINI_API_KEY to enable the chat advisor.")
-
-
-# ------------------------------------
-#  Finances & Living
-# ------------------------------------
-elif page == "Finances & Living":
-    prog = student.get("program", {})
-    fin = student.get("financials", {})
-    tuition_df, matched_key = get_tuition_for_student(tuition_clean, student)
-
+    # ---- Finances Tabs ----
     tab1, tab2, tab3 = st.tabs(["🎓 Scholarships & Invoices", "🏙️ Cost of Living", "📊 Tuition"])
-
-    # ---- Tuition ----
-    with tab3:
-        st.markdown(f"#### Tuition Data (matched with: <span style='color:green;font-weight:600'>{matched_key}</span>)", unsafe_allow_html=True)
-        if tuition_df.empty:
-            st.warning("No tuition info found for this program.")
-        else:
-            # Clean + filter noise
-            tuition_df["amount"] = pd.to_numeric(tuition_df["amount"], errors="coerce")
-            exclude_words = ["search", "office of enrollment", "financial services", "student financial", "university —"]
-            mask = ~tuition_df["item"].astype(str).str.lower().str.contains("|".join(exclude_words))
-            tuition_df = tuition_df[mask]
-            tuition_df = tuition_df.dropna(subset=["amount"])
-
-            # Categorize
-            def classify(x):
-                x = str(x).lower()
-                if "tuition" in x: return "Tuition"
-                if "fee" in x: return "Fees"
-                if any(k in x for k in ["living", "meal", "housing", "food"]): return "Living"
-                return "Other"
-
-            tuition_df["category"] = tuition_df["item"].apply(classify)
-            tuition_df["unit_clean"] = tuition_df["unit"].str.title().fillna("Per Year")
-
-            # Filter by toggle
-            unit_filter = "per"
-            tuition_df = tuition_df[tuition_df["unit_clean"].str.lower().str.contains(unit_filter)]
-
-            # Deduplicate
-            tuition_df = (
-                tuition_df.sort_values("amount", ascending=False)
-                .drop_duplicates(subset=["school", "unit_clean", "category"])
-            )
-            tuition_df["amount_fmt"] = tuition_df["amount"].apply(fmt_money)
-
-            st.dataframe(tuition_df[["school", "category", "item", "amount_fmt", "unit_clean"]], use_container_width=True)
-
-            # Visuals
-            chart_df = tuition_df.groupby(["unit_clean", "category"], as_index=False)["amount"].mean()
-            fig = px.bar(
-                chart_df,
-                x="unit_clean",
-                y="amount",
-                color="category",
-                barmode="group",
-                text_auto=".2s",
-                title=f"Average Tuition & Fee Breakdown — {prog.get('school','')}",
-                color_discrete_sequence=px.colors.qualitative.Bold
-            )
-            fig.update_layout(yaxis_title="USD", height=420)
-            st.plotly_chart(fig, use_container_width=True)
 
     # ---- Scholarships ----
     with tab1:
@@ -298,7 +142,6 @@ elif page == "Finances & Living":
                 stipend = assistantship.get("stipend", 0)
                 st.metric("Assistantship", fmt_money(stipend), role)
             elif assistantship:
-                # if it's just a string like "TA" or "RA"
                 st.metric("Assistantship", assistantship)
             else:
                 st.metric("Assistantship", "—")
@@ -312,9 +155,7 @@ elif page == "Finances & Living":
 
     # ---- Cost of Living ----
     with tab2:
-
         col_df = fetch_pittsburgh_cost_of_living()
-
         st.markdown("### 💵 Your Monthly Spending vs. Pittsburgh Average")
 
         if expense_record:
@@ -352,6 +193,131 @@ elif page == "Finances & Living":
             st.plotly_chart(fig2, use_container_width=True)
             st.dataframe(col_df[["label", "value", "category"]], use_container_width=True)
             st.divider()
+
+    # ---- Tuition ----
+    with tab3:
+        st.markdown(f"#### Tuition Data (matched with: <span style='color:green;font-weight:600'>{matched_key}</span>)", unsafe_allow_html=True)
+        if tuition_df.empty:
+            st.warning("No tuition info found for this program.")
+        else:
+            tuition_df["amount"] = pd.to_numeric(tuition_df["amount"], errors="coerce")
+            exclude_words = ["search", "office of enrollment", "financial services", "student financial", "university —"]
+            mask = ~tuition_df["item"].astype(str).str.lower().str.contains("|".join(exclude_words))
+            tuition_df = tuition_df[mask].dropna(subset=["amount"])
+
+            def classify(x):
+                x = str(x).lower()
+                if "tuition" in x: return "Tuition"
+                if "fee" in x: return "Fees"
+                if any(k in x for k in ["living", "meal", "housing", "food"]): return "Living"
+                return "Other"
+
+            tuition_df["category"] = tuition_df["item"].apply(classify)
+            tuition_df["unit_clean"] = tuition_df["unit"].str.title().fillna("Per Year")
+            unit_filter = "per"
+            tuition_df = tuition_df[tuition_df["unit_clean"].str.lower().str.contains(unit_filter)]
+
+            tuition_df = (
+                tuition_df.sort_values("amount", ascending=False)
+                .drop_duplicates(subset=["school", "unit_clean", "category"])
+            )
+            tuition_df["amount_fmt"] = tuition_df["amount"].apply(fmt_money)
+
+            st.dataframe(tuition_df[["school", "category", "item", "amount_fmt", "unit_clean"]], use_container_width=True)
+
+            chart_df = tuition_df.groupby(["unit_clean", "category"], as_index=False)["amount"].mean()
+            fig = px.bar(
+                chart_df,
+                x="unit_clean",
+                y="amount",
+                color="category",
+                barmode="group",
+                text_auto=".2s",
+                title=f"Average Tuition & Fee Breakdown — {prog.get('school','')}",
+                color_discrete_sequence=px.colors.qualitative.Bold
+            )
+            fig.update_layout(yaxis_title="USD", height=420)
+            st.plotly_chart(fig, use_container_width=True)
+
+    st.divider()
+
+    # --------------------------------------------------
+    # 💬 Interactive Advisory Chat (after all finances)
+    # --------------------------------------------------
+    st.subheader("💬 Student Advisory Chat")
+
+    if "chat_history" not in st.session_state:
+        st.session_state.chat_history = []
+    if "active_student" not in st.session_state:
+        st.session_state.active_student = selected_name
+
+    if st.session_state.active_student != selected_name:
+        st.session_state.chat_history = []
+        st.session_state.active_student = selected_name
+
+    for msg in st.session_state.chat_history:
+        with st.chat_message(msg["role"]):
+            st.markdown(msg["content"])
+
+    if prompt := st.chat_input("Ask about your finances, tuition, or CMU life..."):
+        st.chat_message("user").markdown(prompt)
+        st.session_state.chat_history.append({"role": "user", "content": prompt})
+
+        prog = student.get("program", {})
+        fin = student.get("financials", {})
+
+        student_context = f"""
+        Student: {student.get('name')}
+        ID: {student.get('student_id')}
+        Level: {prog.get('level')}
+        Department: {prog.get('department')}
+        School: {prog.get('school')}
+        GPA: {prog.get('gpa')}
+        Tuition per semester: {fin.get('tuition_per_semester')}
+        Scholarship: {fin.get('scholarship')}
+        Assistantship: {fin.get('assistantship')}
+        Invoices: {fin.get('invoices')}
+        """
+
+        tuition_df, matched_key = get_tuition_for_student(tuition_clean, student)
+        col_df = fetch_pittsburgh_cost_of_living()
+
+        tuition_context = tuition_df.head(5).to_dict(orient="records") if not tuition_df.empty else "N/A"
+        col_context = col_df.head(5).to_dict(orient="records") if not col_df.empty else "N/A"
+        expense_context = expense_record["expenses"]["monthly"] if expense_record else "N/A"
+
+        full_prompt = f"""
+        You are Brok, an academic and financial advisor for Carnegie Mellon students.
+        Use the student's data and context to give clear, factual advice.
+
+        Student context:
+        {student_context}
+
+        Monthly Expense context (from audit data):
+        {json.dumps(expense_context, indent=2)}
+
+        Tuition context:
+        {tuition_context}
+
+        Cost of living (Pittsburgh averages):
+        {col_context}
+
+        Student's input:
+        {prompt}
+        """
+
+        if GEMINI_API_KEY:
+            genai.configure(api_key=GEMINI_API_KEY)
+            with st.chat_message("assistant"):
+                with st.spinner("Thinking..."):
+                    model = genai.GenerativeModel("gemini-2.5-pro")
+                    res = model.generate_content(full_prompt)
+                    response_text = res.text or "No response generated."
+                    st.markdown(response_text)
+                    st.session_state.chat_history.append({"role": "assistant", "content": response_text})
+        else:
+            st.warning("⚠️ Please configure your GEMINI_API_KEY to enable the chat advisor.")
+
 
 # ------------------------------------
 #  News Page

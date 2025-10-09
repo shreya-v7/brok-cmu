@@ -11,7 +11,7 @@ Link for the app: https://brokcmu.streamlit.app
 **Course:** *95-888 – Data Focused Python*  
 **Semester:** *Fall 2025 – Section B1*  
 
-**Team Name:** FinSmart CMU  
+**Team Name:** Pink Team | **Project Name:** brok@CMU
 
 | Name | Andrew ID |
 |:------------------|:-----------|

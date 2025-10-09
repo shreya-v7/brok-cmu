@@ -2,6 +2,8 @@
 
 An intelligent, data-driven financial advisory dashboard built using **Streamlit** and **Google Gemini**, simulating real-world Carnegie Mellon University student financial management, including tuition breakdowns, scholarships, living costs, and AI-guided financial insights.
 
+Link for the app: https://brokcmu.streamlit.app
+
 ---
 
 ### **👥 Team Information**

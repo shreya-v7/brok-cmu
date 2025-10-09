@@ -1,31 +1,29 @@
-import os, json, re
-import pandas as pd
-import streamlit as st
-import plotly.express as px
+import json
+import re
+
 import google.generativeai as genai
+import pandas as pd
+import plotly.express as px
+import streamlit as st
 
 from config import GEMINI_API_KEY
+from scrapers.cost_of_living import fetch_pittsburgh_cost_of_living
+# NEW IMPORTS for student expense audit + comparison
+from scrapers.cost_of_living import (
+    render_cost_of_living_comparison
+)
+from scrapers.news import fetch_news
 from utils.tuition import (
     load_tuition_excel,
     normalize_tuition_units,
     dedupe_tuition,
     filter_by_school_and_known_units
 )
-from scrapers.cost_of_living import fetch_pittsburgh_cost_of_living
-from scrapers.loans import fetch_loans_overview
-from scrapers.news import fetch_news
-
-# NEW IMPORTS for student expense audit + comparison
-from scrapers.cost_of_living import (
-    summarize_student_expenses,
-    summarize_city_costs,
-    render_cost_of_living_comparison
-)
 
 # ------------------------------------
 #  Streamlit Setup
 # ------------------------------------
-st.set_page_config(page_title="🎓 CMU Student Financial Advisor", layout="wide")
+st.set_page_config(page_title="🎓 brok@CMU", layout="wide")
 st.markdown(
     "<h1 style='text-align:center; color:#A40000;'>CMU Student Financial Advisor Dashboard</h1>",
     unsafe_allow_html=True

@@ -1,19 +1,14 @@
-# Steel Student Finance — CMU (Pittsburgh) Analyzer
+# brok@cmu — Intelligent Student Advisory
 
-End-to-end Streamlit app:
-- Load your `cmu_mock_students.json`
-- (Optional) scrape Pittsburgh price signals (robots-aware) for rent & groceries
-- Fetch current federal student loan rates & headlines (RSS) with safe fallbacks
-- Run per-student affordability with personalized suggestions based on a target objective
+A Streamlit app that helps CMU students plan budgets:
+- Select a student → see profile, GPA, tuition invoices, etc.
+- Live context: CMU tuition pages, Pittsburgh cost of living (Numbeo), student aid & loan sites, and relevant news.
+- Gemini generates a tailored budget and 30/60/90 day plan.
 
-## Quickstart
+## Setup
+
 ```bash
-python -m venv .venv && source .venv/bin/activate     # Windows: .venv\Scripts\activate
+python -m venv .venv && source .venv/bin/activate
 pip install -r requirements.txt
-streamlit run app/streamlit_app.py
-```
-
-## Notes
-- Scrapers honor `robots.txt` and have fallbacks to synthetic medians.
-- Use the sidebar to point to your **cmu_mock_students.json** (or upload it in the UI).
-- Objectives supported (examples): "save $200/month", "pay off $5000 in 24 months", "cut spending by 15%".
+cp .env.example .env  # add GEMINI_API_KEY
+streamlit run app.py

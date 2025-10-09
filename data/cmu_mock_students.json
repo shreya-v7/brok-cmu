@@ -18,7 +18,8 @@
         "Finite Element Methods",
         "Computational Fluid Dynamics",
         "Thermodynamics II"
-      ]
+      ],
+      "school": "College of Engineering"
     },
     "financials": {
       "tuition_per_semester": 22000,
@@ -69,7 +70,8 @@
         "Signals and Systems",
         "Electromagnetics",
         "Digital Logic"
-      ]
+      ],
+      "school": "College of Engineering"
     },
     "financials": {
       "tuition_per_semester": 18000,
@@ -120,7 +122,8 @@
         "Human-Centered Design",
         "Interaction Design",
         "Visual Communication"
-      ]
+      ],
+      "school": "College of Fine Arts"
     },
     "financials": {
       "tuition_per_semester": 22000,
@@ -171,7 +174,8 @@
         "Statistical Mechanics",
         "Quantum Mechanics",
         "Electrodynamics"
-      ]
+      ],
+      "school": "Mellon College of Science"
     },
     "financials": {
       "tuition_per_semester": 0,
@@ -222,12 +226,13 @@
         "Quantum Mechanics",
         "Statistical Mechanics",
         "Electrodynamics"
-      ]
+      ],
+      "school": "Mellon College of Science"
     },
     "financials": {
       "tuition_per_semester": 0,
       "scholarship": null,
-      "assistantship": null,
+      "assistantship": "Funded",
       "invoices": [
         {
           "invoice_id": "INV-2025-005-F",
@@ -270,7 +275,8 @@
         "Molecular Biology",
         "Genetics",
         "Bioinformatics"
-      ]
+      ],
+      "school": "Mellon College of Science"
     },
     "financials": {
       "tuition_per_semester": 22000,
@@ -324,7 +330,8 @@
         "Computational Fluid Dynamics",
         "Finite Element Methods",
         "Thermodynamics II"
-      ]
+      ],
+      "school": "College of Engineering"
     },
     "financials": {
       "tuition_per_semester": 18000,
@@ -375,7 +382,8 @@
         "Public Finance",
         "Policy Analysis",
         "Econometrics"
-      ]
+      ],
+      "school": "Heinz College of Information Systems and Public Policy"
     },
     "financials": {
       "tuition_per_semester": 22000,
@@ -429,7 +437,8 @@
         "Electrodynamics",
         "Quantum Mechanics",
         "Statistical Mechanics"
-      ]
+      ],
+      "school": "Mellon College of Science"
     },
     "financials": {
       "tuition_per_semester": 22000,
@@ -480,7 +489,8 @@
         "Topology",
         "Real Analysis",
         "Abstract Algebra"
-      ]
+      ],
+      "school": "Mellon College of Science"
     },
     "financials": {
       "tuition_per_semester": 22000,
@@ -534,7 +544,8 @@
         "Distributed Systems",
         "Operating Systems",
         "Databases"
-      ]
+      ],
+      "school": "School of Computer Science"
     },
     "financials": {
       "tuition_per_semester": 18000,
@@ -585,7 +596,8 @@
         "Signals and Systems",
         "Digital Logic",
         "Electromagnetics"
-      ]
+      ],
+      "school": "College of Engineering"
     },
     "financials": {
       "tuition_per_semester": 22000,
@@ -636,7 +648,8 @@
         "Quantum Mechanics",
         "Statistical Mechanics",
         "Electrodynamics"
-      ]
+      ],
+      "school": "Mellon College of Science"
     },
     "financials": {
       "tuition_per_semester": 22000,
@@ -690,7 +703,8 @@
         "Vision for Robotics",
         "Robot Kinematics",
         "Control Systems"
-      ]
+      ],
+      "school": "School of Computer Science"
     },
     "financials": {
       "tuition_per_semester": 0,
@@ -744,7 +758,8 @@
         "Data Mining",
         "Optimization",
         "Predictive Modeling"
-      ]
+      ],
+      "school": "Tepper School of Business"
     },
     "financials": {
       "tuition_per_semester": 22000,
@@ -798,7 +813,8 @@
         "Visual Communication",
         "Human-Centered Design",
         "Interaction Design"
-      ]
+      ],
+      "school": "College of Fine Arts"
     },
     "financials": {
       "tuition_per_semester": 0,
@@ -849,7 +865,8 @@
         "Computational Fluid Dynamics",
         "Thermodynamics II",
         "Finite Element Methods"
-      ]
+      ],
+      "school": "College of Engineering"
     },
     "financials": {
       "tuition_per_semester": 0,
@@ -900,7 +917,8 @@
         "Signals and Systems",
         "Circuits I",
         "Digital Logic"
-      ]
+      ],
+      "school": "College of Engineering"
     },
     "financials": {
       "tuition_per_semester": 18000,
@@ -951,7 +969,8 @@
         "Bioinformatics",
         "Genetics",
         "Molecular Biology"
-      ]
+      ],
+      "school": "Mellon College of Science"
     },
     "financials": {
       "tuition_per_semester": 22000,
@@ -1005,7 +1024,8 @@
         "Abstract Algebra",
         "Topology",
         "Real Analysis"
-      ]
+      ],
+      "school": "Mellon College of Science"
     },
     "financials": {
       "tuition_per_semester": 22000,
@@ -1056,7 +1076,8 @@
         "Molecular Biology",
         "Bioinformatics",
         "Genetics"
-      ]
+      ],
+      "school": "Mellon College of Science"
     },
     "financials": {
       "tuition_per_semester": 0,
@@ -1107,7 +1128,8 @@
         "Econometrics",
         "Public Finance",
         "Policy Analysis"
-      ]
+      ],
+      "school": "Heinz College of Information Systems and Public Policy"
     },
     "financials": {
       "tuition_per_semester": 18000,
@@ -1158,7 +1180,8 @@
         "Concrete Design",
         "Transportation Engineering",
         "Structural Analysis"
-      ]
+      ],
+      "school": "College of Engineering"
     },
     "financials": {
       "tuition_per_semester": 0,
@@ -1209,7 +1232,8 @@
         "Abstract Algebra",
         "Topology",
         "Real Analysis"
-      ]
+      ],
+      "school": "Mellon College of Science"
     },
     "financials": {
       "tuition_per_semester": 22000,
@@ -1263,7 +1287,8 @@
         "Interaction Design",
         "Visual Communication",
         "Human-Centered Design"
-      ]
+      ],
+      "school": "College of Fine Arts"
     },
     "financials": {
       "tuition_per_semester": 0,
@@ -1317,7 +1342,8 @@
         "Enterprise Systems",
         "Security in Systems",
         "UX Design"
-      ]
+      ],
+      "school": "College of Fine Arts"
     },
     "financials": {
       "tuition_per_semester": 22000,
@@ -1371,7 +1397,8 @@
         "Operating Systems",
         "Databases",
         "Distributed Systems"
-      ]
+      ],
+      "school": "School of Computer Science"
     },
     "financials": {
       "tuition_per_semester": 22000,
@@ -1419,7 +1446,8 @@
         "AI Robotics",
         "Control Systems",
         "Robot Kinematics"
-      ]
+      ],
+      "school": "School of Computer Science"
     },
     "financials": {
       "tuition_per_semester": 18000,
@@ -1470,7 +1498,8 @@
         "Operating Systems",
         "Databases",
         "Distributed Systems"
-      ]
+      ],
+      "school": "School of Computer Science"
     },
     "financials": {
       "tuition_per_semester": 0,
@@ -1521,7 +1550,8 @@
         "Data Mining",
         "Optimization",
         "Predictive Modeling"
-      ]
+      ],
+      "school": "Tepper School of Business"
     },
     "financials": {
       "tuition_per_semester": 0,
@@ -1575,7 +1605,8 @@
         "Topology",
         "Abstract Algebra",
         "Real Analysis"
-      ]
+      ],
+      "school": "Mellon College of Science"
     },
     "financials": {
       "tuition_per_semester": 22000,
@@ -1626,7 +1657,8 @@
         "Data Mining",
         "Predictive Modeling",
         "Optimization"
-      ]
+      ],
+      "school": "Tepper School of Business"
     },
     "financials": {
       "tuition_per_semester": 0,
@@ -1680,7 +1712,8 @@
         "AI Robotics",
         "Control Systems",
         "Robot Kinematics"
-      ]
+      ],
+      "school": "School of Computer Science"
     },
     "financials": {
       "tuition_per_semester": 0,
@@ -1731,7 +1764,8 @@
         "Data Management",
         "Security in Systems",
         "UX Design"
-      ]
+      ],
+      "school": "College of Fine Arts"
     },
     "financials": {
       "tuition_per_semester": 0,
@@ -1782,7 +1816,8 @@
         "AI Robotics",
         "Vision for Robotics",
         "Control Systems"
-      ]
+      ],
+      "school": "School of Computer Science"
     },
     "financials": {
       "tuition_per_semester": 0,
@@ -1836,7 +1871,8 @@
         "Distributed Systems",
         "Operating Systems",
         "Machine Learning"
-      ]
+      ],
+      "school": "School of Computer Science"
     },
     "financials": {
       "tuition_per_semester": 22000,
@@ -1890,7 +1926,8 @@
         "Visual Communication",
         "Human-Centered Design",
         "Interaction Design"
-      ]
+      ],
+      "school": "College of Fine Arts"
     },
     "financials": {
       "tuition_per_semester": 0,
@@ -1944,7 +1981,8 @@
         "Statistical Mechanics",
         "Quantum Mechanics",
         "Electrodynamics"
-      ]
+      ],
+      "school": "Mellon College of Science"
     },
     "financials": {
       "tuition_per_semester": 0,
@@ -1995,7 +2033,8 @@
         "Databases",
         "Distributed Systems",
         "Advanced Algorithms"
-      ]
+      ],
+      "school": "School of Computer Science"
     },
     "financials": {
       "tuition_per_semester": 18000,
@@ -2046,7 +2085,8 @@
         "Statistical Mechanics",
         "Electrodynamics",
         "Quantum Mechanics"
-      ]
+      ],
+      "school": "Mellon College of Science"
     },
     "financials": {
       "tuition_per_semester": 22000,
@@ -2100,7 +2140,8 @@
         "Security in Systems",
         "Data Management",
         "Enterprise Systems"
-      ]
+      ],
+      "school": "Heinz College of Information Systems and Public Policy"
     },
     "financials": {
       "tuition_per_semester": 22000,
@@ -2151,7 +2192,8 @@
         "Topology",
         "Abstract Algebra",
         "Real Analysis"
-      ]
+      ],
+      "school": "Mellon College of Science"
     },
     "financials": {
       "tuition_per_semester": 22000,
@@ -2202,7 +2244,8 @@
         "AI Robotics",
         "Robot Kinematics",
         "Control Systems"
-      ]
+      ],
+      "school": "School of Computer Science"
     },
     "financials": {
       "tuition_per_semester": 18000,
@@ -2253,7 +2296,8 @@
         "Thermodynamics II",
         "Computational Fluid Dynamics",
         "Finite Element Methods"
-      ]
+      ],
+      "school": "College of Engineering"
     },
     "financials": {
       "tuition_per_semester": 0,
@@ -2307,7 +2351,8 @@
         "AI Robotics",
         "Robot Kinematics",
         "Vision for Robotics"
-      ]
+      ],
+      "school": "School of Computer Science"
     },
     "financials": {
       "tuition_per_semester": 0,
@@ -2358,7 +2403,8 @@
         "Econometrics",
         "Policy Analysis",
         "Public Finance"
-      ]
+      ],
+      "school": "Heinz College of Information Systems and Public Policy"
     },
     "financials": {
       "tuition_per_semester": 0,
@@ -2409,7 +2455,8 @@
         "Security in Systems",
         "UX Design",
         "Enterprise Systems"
-      ]
+      ],
+      "school": "College of Fine Arts"
     },
     "financials": {
       "tuition_per_semester": 0,
@@ -2460,7 +2507,8 @@
         "Topology",
         "Real Analysis",
         "Abstract Algebra"
-      ]
+      ],
+      "school": "Mellon College of Science"
     },
     "financials": {
       "tuition_per_semester": 22000,
@@ -2514,7 +2562,8 @@
         "Data Mining",
         "Predictive Modeling",
         "Optimization"
-      ]
+      ],
+      "school": "Tepper School of Business"
     },
     "financials": {
       "tuition_per_semester": 0,
@@ -2565,7 +2614,8 @@
         "Signals and Systems",
         "Electromagnetics",
         "Circuits I"
-      ]
+      ],
+      "school": "College of Engineering"
     },
     "financials": {
       "tuition_per_semester": 22000,

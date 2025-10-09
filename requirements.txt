@@ -1,8 +1,10 @@
 streamlit==1.38.0
-pandas==2.2.2
-requests==2.32.3
-beautifulsoup4==4.12.3
-aiohttp==3.9.5
-aiolimiter==1.1.0
-python-dateutil==2.9.0.post0
-pydantic>=2
+pandas>=2.2
+numpy>=1.26
+requests>=2.32
+beautifulsoup4>=4.12
+python-dotenv>=1.0
+lxml>=5.2
+openpyxl>=3.1
+plotly>=5.22
+google-genai>=0.2.0

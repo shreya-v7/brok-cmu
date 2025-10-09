@@ -129,9 +129,16 @@ if page == "Overview":
 
     st.subheader("💬 Student Advisory Chat")
 
-    # Initialize chat session
+    # Initialize chat session per student
     if "chat_history" not in st.session_state:
         st.session_state.chat_history = []
+    if "active_student" not in st.session_state:
+        st.session_state.active_student = selected_name
+
+    # If a new student is selected, reset chat history
+    if st.session_state.active_student != selected_name:
+        st.session_state.chat_history = []
+        st.session_state.active_student = selected_name
 
     # Display chat history
     for msg in st.session_state.chat_history:

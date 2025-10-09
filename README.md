@@ -4,6 +4,23 @@ An intelligent, data-driven financial advisory dashboard built using **Streamlit
 
 ---
 
+### **👥 Team Information**
+
+**Course:** *95-888 – Data Focused Python*  
+**Semester:** *Fall 2025 – Section B1*  
+
+**Team Name:** FinSmart CMU  
+
+| Name | Andrew ID |
+|:------------------|:-----------|
+| Meghana Dhruv | **meghanad** |
+| Yiying Lu | **yiyinglu** |
+| Shreya Verma | **shreyave** |
+| Mengzhang Yin | **mengzhay** |
+| Malikah Nathani | **mnathani** |
+
+---
+
 ## 🧭 Overview
 
 The **CMU Student Financial Advisor Dashboard** provides a unified interface for analyzing:
@@ -207,6 +224,59 @@ If `GEMINI_API_KEY` is not configured, a warning will appear and the assistant w
 - Cost-of-living visualizations are built with Plotly (dynamic updates supported).
 
 ---
+
+---
+
+## 🧠 Acknowledgments & Citations
+
+### **Generative AI Use Disclosure**
+This project was developed with limited assistance from **OpenAI ChatGPT (GPT-5)** to:
+- Draft system architecture and initial file structure
+- Generate mock student and expense JSON data
+- Refine documentation (README) and system diagram formatting
+- Improve code readability and commenting consistency
+
+All final Python logic, integration, debugging, and implementation were completed independently by the project team.  
+AI outputs were verified, edited, and aligned with Carnegie Mellon University’s **Tier-4 “Integrated GenAI for Professional/Proficient Use”** guidelines.
+
+> **Tool Used:** OpenAI ChatGPT (GPT-5)  
+> **Accessed via:** [https://chat.openai.com](https://chat.openai.com)  
+> **Model Release:** October 2025  
+
+---
+
+### **External Data & Web Sources**
+| Source | Purpose | Citation |
+|:--------|:---------|:----------|
+| **Carnegie Mellon University Official Tuition Pages** | Tuition rates and sample program fees for tuition preprocessing | [https://www.cmu.edu/sfs/tuition/](https://www.cmu.edu/sfs/tuition/) |
+| **Numbeo – Cost of Living in Pittsburgh** | Used to simulate average rent, food, and utilities costs in `scrapers/cost_of_living.py` | [https://www.numbeo.com/cost-of-living/in/Pittsburgh](https://www.numbeo.com/cost-of-living/in/Pittsburgh) |
+| **CMU News RSS Feed** | Source for `scrapers/news.py` to fetch campus and financial news | [https://www.cmu.edu/news/rss](https://www.cmu.edu/news/rss) |
+| **Google Gemini API Documentation** | Used for `gemini_client.py` integration with Gemini 2.5 Pro model | [https://ai.google.dev/](https://ai.google.dev/) |
+| **Streamlit Documentation** | Used to develop the interactive dashboard and multi-page app | [https://docs.streamlit.io/](https://docs.streamlit.io/) |
+| **Plotly Express Documentation** | For data visualization and analytics | [https://plotly.com/python/plotly-express/](https://plotly.com/python/plotly-express/) |
+| **Pandas Documentation** | For all data cleaning and manipulation operations | [https://pandas.pydata.org/docs/](https://pandas.pydata.org/docs/) |
+
+---
+
+### **Python Libraries Used**
+| Library | Purpose |
+|:----------|:----------|
+| `streamlit` | UI rendering and dashboard framework |
+| `pandas` | Data wrangling and tabular processing |
+| `plotly.express` | Visualization of tuition and expenses |
+| `google-generativeai` | Gemini API integration |
+| `openpyxl` | Excel file reading and writing |
+| `requests` | HTTP data requests for scrapers |
+| `beautifulsoup4` | Web scraping and HTML parsing |
+| `python-dotenv` | Secure environment variable management |
+
+---
+## 📸 Screenshots
+
+![img.png](img.png)
+![img_1.png](img_1.png)
+![img_2.png](img_2.png)
+![img_3.png](img_3.png)
 
 ## 🧾 License
 

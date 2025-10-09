@@ -1,0 +1,1452 @@
+[
+  {
+    "student_id": "CMU2025-001",
+    "name": "Dr. Joanna Gonzalez",
+    "level": "Masters",
+    "expenses": {
+      "monthly": {
+        "on_campus": {
+          "cafeteria": 147.85,
+          "restaurants": 70.71,
+          "convenience_store": 34.83,
+          "rent": 239.83
+        },
+        "off_campus": {
+          "groceries": 285.73,
+          "restaurants": 127.3,
+          "delivery": 24.03,
+          "rent": 0
+        },
+        "utilities": 61.06,
+        "transportation": 98.69,
+        "fun": {
+          "entertainment": 72.84,
+          "subscriptions": 25.69,
+          "trips": 33.8
+        },
+        "total": 1222.36
+      }
+    }
+  },
+  {
+    "student_id": "CMU2025-002",
+    "name": "Jennifer Bolton",
+    "level": "Undergraduate",
+    "expenses": {
+      "monthly": {
+        "on_campus": {
+          "cafeteria": 131.11,
+          "restaurants": 105.15,
+          "convenience_store": 21.61,
+          "rent": 79.25
+        },
+        "off_campus": {
+          "groceries": 194.98,
+          "restaurants": 80.84,
+          "delivery": 42.7,
+          "rent": 0
+        },
+        "utilities": 54.45,
+        "transportation": 103.31,
+        "fun": {
+          "entertainment": 45.52,
+          "subscriptions": 15.61,
+          "trips": 35.23
+        },
+        "total": 909.76
+      }
+    }
+  },
+  {
+    "student_id": "CMU2025-003",
+    "name": "Regina Martinez",
+    "level": "Masters",
+    "expenses": {
+      "monthly": {
+        "on_campus": {
+          "cafeteria": 120.48,
+          "restaurants": 73.33,
+          "convenience_store": 59.57,
+          "rent": 335.43
+        },
+        "off_campus": {
+          "groceries": 242.18,
+          "restaurants": 128.99,
+          "delivery": 55.01,
+          "rent": 0
+        },
+        "utilities": 105.72,
+        "transportation": 64.95,
+        "fun": {
+          "entertainment": 51.5,
+          "subscriptions": 12.01,
+          "trips": 88.65
+        },
+        "total": 1337.82
+      }
+    }
+  },
+  {
+    "student_id": "CMU2025-004",
+    "name": "Jeffrey Hernandez",
+    "level": "PhD",
+    "expenses": {
+      "monthly": {
+        "on_campus": {
+          "cafeteria": 108.41,
+          "restaurants": 77.74,
+          "convenience_store": 49.14,
+          "rent": 349.83
+        },
+        "off_campus": {
+          "groceries": 153.83,
+          "restaurants": 95.78,
+          "delivery": 48.85,
+          "rent": 0
+        },
+        "utilities": 102.15,
+        "transportation": 44.35,
+        "fun": {
+          "entertainment": 73.67,
+          "subscriptions": 26.66,
+          "trips": 91.53
+        },
+        "total": 1221.94
+      }
+    }
+  },
+  {
+    "student_id": "CMU2025-005",
+    "name": "Ryan Pitts",
+    "level": "PhD",
+    "expenses": {
+      "monthly": {
+        "on_campus": {
+          "cafeteria": 96.8,
+          "restaurants": 73.54,
+          "convenience_store": 39.86,
+          "rent": 85.63
+        },
+        "off_campus": {
+          "groceries": 277.19,
+          "restaurants": 136.32,
+          "delivery": 39.93,
+          "rent": 0
+        },
+        "utilities": 64.22,
+        "transportation": 52.91,
+        "fun": {
+          "entertainment": 62.27,
+          "subscriptions": 13.2,
+          "trips": 41.01
+        },
+        "total": 982.88
+      }
+    }
+  },
+  {
+    "student_id": "CMU2025-006",
+    "name": "Hannah Bright",
+    "level": "Masters",
+    "expenses": {
+      "monthly": {
+        "on_campus": {
+          "cafeteria": 104.47,
+          "restaurants": 112.9,
+          "convenience_store": 21.74,
+          "rent": 162.36
+        },
+        "off_campus": {
+          "groceries": 214.92,
+          "restaurants": 93.33,
+          "delivery": 34.05,
+          "rent": 0
+        },
+        "utilities": 50.51,
+        "transportation": 88.0,
+        "fun": {
+          "entertainment": 45.51,
+          "subscriptions": 18.71,
+          "trips": 39.11
+        },
+        "total": 985.61
+      }
+    }
+  },
+  {
+    "student_id": "CMU2025-007",
+    "name": "Mark Harrison",
+    "level": "Undergraduate",
+    "expenses": {
+      "monthly": {
+        "on_campus": {
+          "cafeteria": 100.16,
+          "restaurants": 84.22,
+          "convenience_store": 21.61,
+          "rent": 217.23
+        },
+        "off_campus": {
+          "groceries": 278.53,
+          "restaurants": 72.66,
+          "delivery": 58.49,
+          "rent": 0
+        },
+        "utilities": 48.72,
+        "transportation": 94.05,
+        "fun": {
+          "entertainment": 35.5,
+          "subscriptions": 23.27,
+          "trips": 45.35
+        },
+        "total": 1079.79
+      }
+    }
+  },
+  {
+    "student_id": "CMU2025-008",
+    "name": "Jeffrey Smith",
+    "level": "Masters",
+    "expenses": {
+      "monthly": {
+        "on_campus": {
+          "cafeteria": 126.05,
+          "restaurants": 65.51,
+          "convenience_store": 50.88,
+          "rent": 254.09
+        },
+        "off_campus": {
+          "groceries": 163.65,
+          "restaurants": 107.31,
+          "delivery": 49.81,
+          "rent": 0
+        },
+        "utilities": 61.02,
+        "transportation": 83.11,
+        "fun": {
+          "entertainment": 86.66,
+          "subscriptions": 26.45,
+          "trips": 28.29
+        },
+        "total": 1102.83
+      }
+    }
+  },
+  {
+    "student_id": "CMU2025-009",
+    "name": "Mary Foster",
+    "level": "Masters",
+    "expenses": {
+      "monthly": {
+        "on_campus": {
+          "cafeteria": 105.8,
+          "restaurants": 96.74,
+          "convenience_store": 56.82,
+          "rent": 111.74
+        },
+        "off_campus": {
+          "groceries": 262.21,
+          "restaurants": 140.8,
+          "delivery": 28.78,
+          "rent": 0
+        },
+        "utilities": 49.16,
+        "transportation": 75.3,
+        "fun": {
+          "entertainment": 96.21,
+          "subscriptions": 20.08,
+          "trips": 31.81
+        },
+        "total": 1075.45
+      }
+    }
+  },
+  {
+    "student_id": "CMU2025-010",
+    "name": "Ryan Kane",
+    "level": "Masters",
+    "expenses": {
+      "monthly": {
+        "on_campus": {
+          "cafeteria": 148.13,
+          "restaurants": 110.27,
+          "convenience_store": 21.27,
+          "rent": 307.71
+        },
+        "off_campus": {
+          "groceries": 206.97,
+          "restaurants": 75.29,
+          "delivery": 46.37,
+          "rent": 0
+        },
+        "utilities": 91.65,
+        "transportation": 100.38,
+        "fun": {
+          "entertainment": 56.78,
+          "subscriptions": 16.35,
+          "trips": 93.13
+        },
+        "total": 1274.3
+      }
+    }
+  },
+  {
+    "student_id": "CMU2025-011",
+    "name": "Nicole Guerrero",
+    "level": "Undergraduate",
+    "expenses": {
+      "monthly": {
+        "on_campus": {
+          "cafeteria": 113.23,
+          "restaurants": 75.53,
+          "convenience_store": 40.6,
+          "rent": 333.72
+        },
+        "off_campus": {
+          "groceries": 222.62,
+          "restaurants": 70.35,
+          "delivery": 46.09,
+          "rent": 0
+        },
+        "utilities": 79.91,
+        "transportation": 41.3,
+        "fun": {
+          "entertainment": 75.42,
+          "subscriptions": 23.44,
+          "trips": 55.69
+        },
+        "total": 1177.9
+      }
+    }
+  },
+  {
+    "student_id": "CMU2025-012",
+    "name": "Brianna Rodriguez",
+    "level": "Masters",
+    "expenses": {
+      "monthly": {
+        "on_campus": {
+          "cafeteria": 105.96,
+          "restaurants": 107.35,
+          "convenience_store": 57.24,
+          "rent": 154.4
+        },
+        "off_campus": {
+          "groceries": 271.51,
+          "restaurants": 75.06,
+          "delivery": 25.76,
+          "rent": 0
+        },
+        "utilities": 118.89,
+        "transportation": 106.82,
+        "fun": {
+          "entertainment": 81.83,
+          "subscriptions": 22.96,
+          "trips": 57.83
+        },
+        "total": 1185.61
+      }
+    }
+  },
+  {
+    "student_id": "CMU2025-013",
+    "name": "Jose Snyder",
+    "level": "Masters",
+    "expenses": {
+      "monthly": {
+        "on_campus": {
+          "cafeteria": 104.28,
+          "restaurants": 111.56,
+          "convenience_store": 56.69,
+          "rent": 53.41
+        },
+        "off_campus": {
+          "groceries": 279.34,
+          "restaurants": 99.97,
+          "delivery": 36.85,
+          "rent": 0
+        },
+        "utilities": 90.6,
+        "transportation": 114.29,
+        "fun": {
+          "entertainment": 67.2,
+          "subscriptions": 23.75,
+          "trips": 93.04
+        },
+        "total": 1130.98
+      }
+    }
+  },
+  {
+    "student_id": "CMU2025-014",
+    "name": "Shannon Torres",
+    "level": "PhD",
+    "expenses": {
+      "monthly": {
+        "on_campus": {
+          "cafeteria": 127.29,
+          "restaurants": 108.73,
+          "convenience_store": 43.3,
+          "rent": 283.44
+        },
+        "off_campus": {
+          "groceries": 221.03,
+          "restaurants": 122.14,
+          "delivery": 36.53,
+          "rent": 0
+        },
+        "utilities": 44.0,
+        "transportation": 103.12,
+        "fun": {
+          "entertainment": 54.84,
+          "subscriptions": 29.24,
+          "trips": 38.18
+        },
+        "total": 1211.84
+      }
+    }
+  },
+  {
+    "student_id": "CMU2025-015",
+    "name": "Francisco Green",
+    "level": "Masters",
+    "expenses": {
+      "monthly": {
+        "on_campus": {
+          "cafeteria": 85.8,
+          "restaurants": 101.89,
+          "convenience_store": 52.57,
+          "rent": 147.33
+        },
+        "off_campus": {
+          "groceries": 246.98,
+          "restaurants": 140.81,
+          "delivery": 53.46,
+          "rent": 0
+        },
+        "utilities": 107.99,
+        "transportation": 82.4,
+        "fun": {
+          "entertainment": 69.53,
+          "subscriptions": 23.73,
+          "trips": 74.83
+        },
+        "total": 1187.32
+      }
+    }
+  },
+  {
+    "student_id": "CMU2025-016",
+    "name": "Rebecca Howell",
+    "level": "PhD",
+    "expenses": {
+      "monthly": {
+        "on_campus": {
+          "cafeteria": 81.8,
+          "restaurants": 83.52,
+          "convenience_store": 47.83,
+          "rent": 3.09
+        },
+        "off_campus": {
+          "groceries": 202.21,
+          "restaurants": 95.97,
+          "delivery": 48.64,
+          "rent": 0
+        },
+        "utilities": 118.68,
+        "transportation": 31.88,
+        "fun": {
+          "entertainment": 83.65,
+          "subscriptions": 13.97,
+          "trips": 64.66
+        },
+        "total": 875.9
+      }
+    }
+  },
+  {
+    "student_id": "CMU2025-017",
+    "name": "Traci Ruiz",
+    "level": "PhD",
+    "expenses": {
+      "monthly": {
+        "on_campus": {
+          "cafeteria": 128.0,
+          "restaurants": 109.46,
+          "convenience_store": 41.89,
+          "rent": 152.04
+        },
+        "off_campus": {
+          "groceries": 240.23,
+          "restaurants": 148.29,
+          "delivery": 43.46,
+          "rent": 0
+        },
+        "utilities": 89.43,
+        "transportation": 46.72,
+        "fun": {
+          "entertainment": 99.53,
+          "subscriptions": 21.6,
+          "trips": 66.52
+        },
+        "total": 1187.17
+      }
+    }
+  },
+  {
+    "student_id": "CMU2025-018",
+    "name": "Daniel Mcintosh",
+    "level": "Undergraduate",
+    "expenses": {
+      "monthly": {
+        "on_campus": {
+          "cafeteria": 97.98,
+          "restaurants": 113.7,
+          "convenience_store": 45.34,
+          "rent": 20.74
+        },
+        "off_campus": {
+          "groceries": 156.2,
+          "restaurants": 96.0,
+          "delivery": 40.91,
+          "rent": 0
+        },
+        "utilities": 66.65,
+        "transportation": 22.26,
+        "fun": {
+          "entertainment": 98.04,
+          "subscriptions": 13.22,
+          "trips": 56.15
+        },
+        "total": 827.19
+      }
+    }
+  },
+  {
+    "student_id": "CMU2025-019",
+    "name": "Alicia Patterson",
+    "level": "Masters",
+    "expenses": {
+      "monthly": {
+        "on_campus": {
+          "cafeteria": 93.19,
+          "restaurants": 72.29,
+          "convenience_store": 51.42,
+          "rent": 176.34
+        },
+        "off_campus": {
+          "groceries": 297.75,
+          "restaurants": 138.66,
+          "delivery": 47.36,
+          "rent": 0
+        },
+        "utilities": 45.51,
+        "transportation": 102.55,
+        "fun": {
+          "entertainment": 93.29,
+          "subscriptions": 23.83,
+          "trips": 23.03
+        },
+        "total": 1165.22
+      }
+    }
+  },
+  {
+    "student_id": "CMU2025-020",
+    "name": "Angela Griffith",
+    "level": "Masters",
+    "expenses": {
+      "monthly": {
+        "on_campus": {
+          "cafeteria": 139.16,
+          "restaurants": 112.63,
+          "convenience_store": 41.56,
+          "rent": 161.28
+        },
+        "off_campus": {
+          "groceries": 281.84,
+          "restaurants": 119.05,
+          "delivery": 24.46,
+          "rent": 0
+        },
+        "utilities": 74.26,
+        "transportation": 35.06,
+        "fun": {
+          "entertainment": 88.74,
+          "subscriptions": 11.23,
+          "trips": 22.32
+        },
+        "total": 1111.59
+      }
+    }
+  },
+  {
+    "student_id": "CMU2025-021",
+    "name": "Phyllis Long",
+    "level": "PhD",
+    "expenses": {
+      "monthly": {
+        "on_campus": {
+          "cafeteria": 118.19,
+          "restaurants": 63.61,
+          "convenience_store": 29.69,
+          "rent": 223.02
+        },
+        "off_campus": {
+          "groceries": 231.07,
+          "restaurants": 101.94,
+          "delivery": 22.07,
+          "rent": 0
+        },
+        "utilities": 83.95,
+        "transportation": 50.9,
+        "fun": {
+          "entertainment": 88.49,
+          "subscriptions": 29.27,
+          "trips": 42.85
+        },
+        "total": 1085.05
+      }
+    }
+  },
+  {
+    "student_id": "CMU2025-022",
+    "name": "Amanda Lynch",
+    "level": "Undergraduate",
+    "expenses": {
+      "monthly": {
+        "on_campus": {
+          "cafeteria": 126.6,
+          "restaurants": 84.23,
+          "convenience_store": 28.21,
+          "rent": 380.71
+        },
+        "off_campus": {
+          "groceries": 277.25,
+          "restaurants": 130.83,
+          "delivery": 53.29,
+          "rent": 0
+        },
+        "utilities": 85.12,
+        "transportation": 118.34,
+        "fun": {
+          "entertainment": 51.55,
+          "subscriptions": 26.65,
+          "trips": 40.81
+        },
+        "total": 1403.59
+      }
+    }
+  },
+  {
+    "student_id": "CMU2025-023",
+    "name": "Kimberly Klein",
+    "level": "PhD",
+    "expenses": {
+      "monthly": {
+        "on_campus": {
+          "cafeteria": 95.75,
+          "restaurants": 69.57,
+          "convenience_store": 45.92,
+          "rent": 367.55
+        },
+        "off_campus": {
+          "groceries": 242.83,
+          "restaurants": 145.14,
+          "delivery": 51.3,
+          "rent": 0
+        },
+        "utilities": 85.11,
+        "transportation": 118.09,
+        "fun": {
+          "entertainment": 40.12,
+          "subscriptions": 28.4,
+          "trips": 34.05
+        },
+        "total": 1323.83
+      }
+    }
+  },
+  {
+    "student_id": "CMU2025-024",
+    "name": "Margaret Hill",
+    "level": "Masters",
+    "expenses": {
+      "monthly": {
+        "on_campus": {
+          "cafeteria": 116.73,
+          "restaurants": 60.78,
+          "convenience_store": 29.15,
+          "rent": 321.6
+        },
+        "off_campus": {
+          "groceries": 280.97,
+          "restaurants": 131.17,
+          "delivery": 50.73,
+          "rent": 0
+        },
+        "utilities": 57.5,
+        "transportation": 74.42,
+        "fun": {
+          "entertainment": 81.45,
+          "subscriptions": 28.43,
+          "trips": 91.28
+        },
+        "total": 1324.21
+      }
+    }
+  },
+  {
+    "student_id": "CMU2025-025",
+    "name": "Emily Harris",
+    "level": "PhD",
+    "expenses": {
+      "monthly": {
+        "on_campus": {
+          "cafeteria": 112.36,
+          "restaurants": 75.25,
+          "convenience_store": 23.05,
+          "rent": 371.9
+        },
+        "off_campus": {
+          "groceries": 298.08,
+          "restaurants": 129.69,
+          "delivery": 44.16,
+          "rent": 0
+        },
+        "utilities": 117.27,
+        "transportation": 55.1,
+        "fun": {
+          "entertainment": 53.9,
+          "subscriptions": 20.28,
+          "trips": 72.61
+        },
+        "total": 1373.65
+      }
+    }
+  },
+  {
+    "student_id": "CMU2025-026",
+    "name": "Regina Larsen",
+    "level": "Masters",
+    "expenses": {
+      "monthly": {
+        "on_campus": {
+          "cafeteria": 110.05,
+          "restaurants": 78.39,
+          "convenience_store": 52.02,
+          "rent": 199.33
+        },
+        "off_campus": {
+          "groceries": 235.73,
+          "restaurants": 134.51,
+          "delivery": 51.74,
+          "rent": 0
+        },
+        "utilities": 45.38,
+        "transportation": 83.71,
+        "fun": {
+          "entertainment": 70.81,
+          "subscriptions": 16.18,
+          "trips": 26.08
+        },
+        "total": 1103.93
+      }
+    }
+  },
+  {
+    "student_id": "CMU2025-027",
+    "name": "Mrs. Ashley Lewis MD",
+    "level": "Masters",
+    "expenses": {
+      "monthly": {
+        "on_campus": {
+          "cafeteria": 90.43,
+          "restaurants": 61.36,
+          "convenience_store": 22.02,
+          "rent": 370.48
+        },
+        "off_campus": {
+          "groceries": 247.73,
+          "restaurants": 81.79,
+          "delivery": 46.45,
+          "rent": 0
+        },
+        "utilities": 58.33,
+        "transportation": 46.22,
+        "fun": {
+          "entertainment": 65.72,
+          "subscriptions": 25.14,
+          "trips": 26.77
+        },
+        "total": 1142.44
+      }
+    }
+  },
+  {
+    "student_id": "CMU2025-028",
+    "name": "Stephanie Young",
+    "level": "Undergraduate",
+    "expenses": {
+      "monthly": {
+        "on_campus": {
+          "cafeteria": 124.12,
+          "restaurants": 72.32,
+          "convenience_store": 47.88,
+          "rent": 207.22
+        },
+        "off_campus": {
+          "groceries": 239.23,
+          "restaurants": 130.56,
+          "delivery": 56.37,
+          "rent": 0
+        },
+        "utilities": 106.02,
+        "transportation": 54.39,
+        "fun": {
+          "entertainment": 55.91,
+          "subscriptions": 24.14,
+          "trips": 83.77
+        },
+        "total": 1201.93
+      }
+    }
+  },
+  {
+    "student_id": "CMU2025-029",
+    "name": "Cameron Mcdaniel",
+    "level": "PhD",
+    "expenses": {
+      "monthly": {
+        "on_campus": {
+          "cafeteria": 141.06,
+          "restaurants": 90.37,
+          "convenience_store": 35.23,
+          "rent": 132.68
+        },
+        "off_campus": {
+          "groceries": 193.38,
+          "restaurants": 102.98,
+          "delivery": 45.13,
+          "rent": 0
+        },
+        "utilities": 111.92,
+        "transportation": 81.8,
+        "fun": {
+          "entertainment": 45.78,
+          "subscriptions": 20.29,
+          "trips": 92.82
+        },
+        "total": 1093.44
+      }
+    }
+  },
+  {
+    "student_id": "CMU2025-030",
+    "name": "Calvin Castillo",
+    "level": "PhD",
+    "expenses": {
+      "monthly": {
+        "on_campus": {
+          "cafeteria": 104.82,
+          "restaurants": 103.71,
+          "convenience_store": 44.32,
+          "rent": 167.47
+        },
+        "off_campus": {
+          "groceries": 257.49,
+          "restaurants": 75.31,
+          "delivery": 41.99,
+          "rent": 0
+        },
+        "utilities": 95.69,
+        "transportation": 111.34,
+        "fun": {
+          "entertainment": 61.87,
+          "subscriptions": 14.99,
+          "trips": 39.93
+        },
+        "total": 1118.93
+      }
+    }
+  },
+  {
+    "student_id": "CMU2025-031",
+    "name": "Brian Wagner",
+    "level": "Masters",
+    "expenses": {
+      "monthly": {
+        "on_campus": {
+          "cafeteria": 100.07,
+          "restaurants": 89.99,
+          "convenience_store": 24.7,
+          "rent": 37.48
+        },
+        "off_campus": {
+          "groceries": 249.0,
+          "restaurants": 138.88,
+          "delivery": 33.76,
+          "rent": 0
+        },
+        "utilities": 50.67,
+        "transportation": 110.19,
+        "fun": {
+          "entertainment": 55.63,
+          "subscriptions": 17.35,
+          "trips": 96.73
+        },
+        "total": 1004.45
+      }
+    }
+  },
+  {
+    "student_id": "CMU2025-032",
+    "name": "Logan Blake",
+    "level": "PhD",
+    "expenses": {
+      "monthly": {
+        "on_campus": {
+          "cafeteria": 80.11,
+          "restaurants": 119.98,
+          "convenience_store": 43.99,
+          "rent": 184.93
+        },
+        "off_campus": {
+          "groceries": 158.37,
+          "restaurants": 127.54,
+          "delivery": 50.67,
+          "rent": 0
+        },
+        "utilities": 52.0,
+        "transportation": 111.19,
+        "fun": {
+          "entertainment": 39.83,
+          "subscriptions": 25.89,
+          "trips": 48.76
+        },
+        "total": 1043.26
+      }
+    }
+  },
+  {
+    "student_id": "CMU2025-033",
+    "name": "Jasmine Allen",
+    "level": "PhD",
+    "expenses": {
+      "monthly": {
+        "on_campus": {
+          "cafeteria": 110.68,
+          "restaurants": 90.91,
+          "convenience_store": 20.46,
+          "rent": 276.56
+        },
+        "off_campus": {
+          "groceries": 254.99,
+          "restaurants": 113.63,
+          "delivery": 48.69,
+          "rent": 0
+        },
+        "utilities": 110.56,
+        "transportation": 96.35,
+        "fun": {
+          "entertainment": 40.85,
+          "subscriptions": 20.54,
+          "trips": 20.38
+        },
+        "total": 1204.6
+      }
+    }
+  },
+  {
+    "student_id": "CMU2025-034",
+    "name": "Joyce Martin",
+    "level": "PhD",
+    "expenses": {
+      "monthly": {
+        "on_campus": {
+          "cafeteria": 88.35,
+          "restaurants": 105.23,
+          "convenience_store": 30.98,
+          "rent": 0.32
+        },
+        "off_campus": {
+          "groceries": 283.18,
+          "restaurants": 136.52,
+          "delivery": 45.51,
+          "rent": 0
+        },
+        "utilities": 65.59,
+        "transportation": 29.86,
+        "fun": {
+          "entertainment": 83.98,
+          "subscriptions": 29.35,
+          "trips": 64.13
+        },
+        "total": 963.0
+      }
+    }
+  },
+  {
+    "student_id": "CMU2025-035",
+    "name": "David Graham",
+    "level": "PhD",
+    "expenses": {
+      "monthly": {
+        "on_campus": {
+          "cafeteria": 134.45,
+          "restaurants": 66.1,
+          "convenience_store": 38.45,
+          "rent": 200.77
+        },
+        "off_campus": {
+          "groceries": 226.72,
+          "restaurants": 96.64,
+          "delivery": 53.72,
+          "rent": 0
+        },
+        "utilities": 115.93,
+        "transportation": 117.3,
+        "fun": {
+          "entertainment": 55.74,
+          "subscriptions": 15.27,
+          "trips": 53.61
+        },
+        "total": 1174.7
+      }
+    }
+  },
+  {
+    "student_id": "CMU2025-036",
+    "name": "Jessica Blake",
+    "level": "Masters",
+    "expenses": {
+      "monthly": {
+        "on_campus": {
+          "cafeteria": 135.84,
+          "restaurants": 92.0,
+          "convenience_store": 30.18,
+          "rent": 272.56
+        },
+        "off_campus": {
+          "groceries": 213.38,
+          "restaurants": 128.85,
+          "delivery": 45.47,
+          "rent": 0
+        },
+        "utilities": 93.95,
+        "transportation": 49.1,
+        "fun": {
+          "entertainment": 50.46,
+          "subscriptions": 29.82,
+          "trips": 80.81
+        },
+        "total": 1222.42
+      }
+    }
+  },
+  {
+    "student_id": "CMU2025-037",
+    "name": "Edward Davis",
+    "level": "PhD",
+    "expenses": {
+      "monthly": {
+        "on_campus": {
+          "cafeteria": 81.06,
+          "restaurants": 89.29,
+          "convenience_store": 22.55,
+          "rent": 77.0
+        },
+        "off_campus": {
+          "groceries": 245.58,
+          "restaurants": 76.71,
+          "delivery": 53.6,
+          "rent": 0
+        },
+        "utilities": 59.82,
+        "transportation": 47.71,
+        "fun": {
+          "entertainment": 58.63,
+          "subscriptions": 20.59,
+          "trips": 63.44
+        },
+        "total": 895.98
+      }
+    }
+  },
+  {
+    "student_id": "CMU2025-038",
+    "name": "Jeremy Carter",
+    "level": "PhD",
+    "expenses": {
+      "monthly": {
+        "on_campus": {
+          "cafeteria": 93.8,
+          "restaurants": 97.64,
+          "convenience_store": 34.15,
+          "rent": 31.5
+        },
+        "off_campus": {
+          "groceries": 184.14,
+          "restaurants": 79.2,
+          "delivery": 41.64,
+          "rent": 0
+        },
+        "utilities": 54.19,
+        "transportation": 49.61,
+        "fun": {
+          "entertainment": 52.87,
+          "subscriptions": 16.58,
+          "trips": 59.66
+        },
+        "total": 794.98
+      }
+    }
+  },
+  {
+    "student_id": "CMU2025-039",
+    "name": "David Morris",
+    "level": "Undergraduate",
+    "expenses": {
+      "monthly": {
+        "on_campus": {
+          "cafeteria": 146.78,
+          "restaurants": 83.7,
+          "convenience_store": 53.6,
+          "rent": 180.83
+        },
+        "off_campus": {
+          "groceries": 245.71,
+          "restaurants": 126.6,
+          "delivery": 36.83,
+          "rent": 0
+        },
+        "utilities": 55.09,
+        "transportation": 51.49,
+        "fun": {
+          "entertainment": 32.06,
+          "subscriptions": 13.03,
+          "trips": 57.24
+        },
+        "total": 1082.96
+      }
+    }
+  },
+  {
+    "student_id": "CMU2025-040",
+    "name": "Nathan Potter",
+    "level": "Masters",
+    "expenses": {
+      "monthly": {
+        "on_campus": {
+          "cafeteria": 102.36,
+          "restaurants": 93.76,
+          "convenience_store": 54.12,
+          "rent": 356.67
+        },
+        "off_campus": {
+          "groceries": 172.05,
+          "restaurants": 132.79,
+          "delivery": 21.19,
+          "rent": 0
+        },
+        "utilities": 104.25,
+        "transportation": 70.22,
+        "fun": {
+          "entertainment": 71.24,
+          "subscriptions": 13.35,
+          "trips": 48.16
+        },
+        "total": 1240.16
+      }
+    }
+  },
+  {
+    "student_id": "CMU2025-041",
+    "name": "Katherine Abbott",
+    "level": "Masters",
+    "expenses": {
+      "monthly": {
+        "on_campus": {
+          "cafeteria": 84.22,
+          "restaurants": 89.14,
+          "convenience_store": 53.8,
+          "rent": 224.7
+        },
+        "off_campus": {
+          "groceries": 250.01,
+          "restaurants": 123.29,
+          "delivery": 47.75,
+          "rent": 0
+        },
+        "utilities": 85.09,
+        "transportation": 110.33,
+        "fun": {
+          "entertainment": 71.93,
+          "subscriptions": 29.25,
+          "trips": 83.18
+        },
+        "total": 1252.69
+      }
+    }
+  },
+  {
+    "student_id": "CMU2025-042",
+    "name": "Diane Brown",
+    "level": "Masters",
+    "expenses": {
+      "monthly": {
+        "on_campus": {
+          "cafeteria": 129.75,
+          "restaurants": 91.18,
+          "convenience_store": 48.84,
+          "rent": 211.58
+        },
+        "off_campus": {
+          "groceries": 284.91,
+          "restaurants": 86.33,
+          "delivery": 27.55,
+          "rent": 0
+        },
+        "utilities": 70.31,
+        "transportation": 116.94,
+        "fun": {
+          "entertainment": 65.68,
+          "subscriptions": 20.75,
+          "trips": 34.4
+        },
+        "total": 1188.22
+      }
+    }
+  },
+  {
+    "student_id": "CMU2025-043",
+    "name": "Christina Thomas",
+    "level": "Undergraduate",
+    "expenses": {
+      "monthly": {
+        "on_campus": {
+          "cafeteria": 128.49,
+          "restaurants": 70.82,
+          "convenience_store": 56.51,
+          "rent": 145.31
+        },
+        "off_campus": {
+          "groceries": 166.68,
+          "restaurants": 96.81,
+          "delivery": 36.39,
+          "rent": 0
+        },
+        "utilities": 66.99,
+        "transportation": 119.1,
+        "fun": {
+          "entertainment": 97.1,
+          "subscriptions": 20.67,
+          "trips": 52.97
+        },
+        "total": 1057.84
+      }
+    }
+  },
+  {
+    "student_id": "CMU2025-044",
+    "name": "Andrea Cook",
+    "level": "PhD",
+    "expenses": {
+      "monthly": {
+        "on_campus": {
+          "cafeteria": 96.09,
+          "restaurants": 69.93,
+          "convenience_store": 25.37,
+          "rent": 22.11
+        },
+        "off_campus": {
+          "groceries": 151.51,
+          "restaurants": 123.36,
+          "delivery": 31.4,
+          "rent": 0
+        },
+        "utilities": 102.49,
+        "transportation": 21.44,
+        "fun": {
+          "entertainment": 69.38,
+          "subscriptions": 19.71,
+          "trips": 50.78
+        },
+        "total": 783.57
+      }
+    }
+  },
+  {
+    "student_id": "CMU2025-045",
+    "name": "Danny Chapman",
+    "level": "PhD",
+    "expenses": {
+      "monthly": {
+        "on_campus": {
+          "cafeteria": 142.96,
+          "restaurants": 76.27,
+          "convenience_store": 51.79,
+          "rent": 346.17
+        },
+        "off_campus": {
+          "groceries": 179.9,
+          "restaurants": 119.7,
+          "delivery": 51.7,
+          "rent": 0
+        },
+        "utilities": 86.87,
+        "transportation": 113.39,
+        "fun": {
+          "entertainment": 47.14,
+          "subscriptions": 16.36,
+          "trips": 53.03
+        },
+        "total": 1285.28
+      }
+    }
+  },
+  {
+    "student_id": "CMU2025-046",
+    "name": "Phillip Robbins",
+    "level": "PhD",
+    "expenses": {
+      "monthly": {
+        "on_campus": {
+          "cafeteria": 129.83,
+          "restaurants": 107.09,
+          "convenience_store": 27.29,
+          "rent": 299.04
+        },
+        "off_campus": {
+          "groceries": 160.72,
+          "restaurants": 77.49,
+          "delivery": 41.81,
+          "rent": 0
+        },
+        "utilities": 116.44,
+        "transportation": 119.7,
+        "fun": {
+          "entertainment": 73.77,
+          "subscriptions": 16.17,
+          "trips": 59.29
+        },
+        "total": 1228.64
+      }
+    }
+  },
+  {
+    "student_id": "CMU2025-047",
+    "name": "Nancy Trujillo MD",
+    "level": "PhD",
+    "expenses": {
+      "monthly": {
+        "on_campus": {
+          "cafeteria": 146.9,
+          "restaurants": 97.48,
+          "convenience_store": 27.38,
+          "rent": 189.69
+        },
+        "off_campus": {
+          "groceries": 196.91,
+          "restaurants": 130.31,
+          "delivery": 35.23,
+          "rent": 0
+        },
+        "utilities": 90.31,
+        "transportation": 101.09,
+        "fun": {
+          "entertainment": 85.67,
+          "subscriptions": 26.4,
+          "trips": 78.9
+        },
+        "total": 1206.27
+      }
+    }
+  },
+  {
+    "student_id": "CMU2025-048",
+    "name": "Michael Fry",
+    "level": "Masters",
+    "expenses": {
+      "monthly": {
+        "on_campus": {
+          "cafeteria": 126.73,
+          "restaurants": 68.97,
+          "convenience_store": 26.53,
+          "rent": 173.92
+        },
+        "off_campus": {
+          "groceries": 289.31,
+          "restaurants": 134.53,
+          "delivery": 24.84,
+          "rent": 0
+        },
+        "utilities": 44.9,
+        "transportation": 97.13,
+        "fun": {
+          "entertainment": 64.39,
+          "subscriptions": 26.77,
+          "trips": 60.07
+        },
+        "total": 1138.09
+      }
+    }
+  },
+  {
+    "student_id": "CMU2025-049",
+    "name": "Brad Simmons",
+    "level": "PhD",
+    "expenses": {
+      "monthly": {
+        "on_campus": {
+          "cafeteria": 91.56,
+          "restaurants": 105.66,
+          "convenience_store": 32.8,
+          "rent": 298.96
+        },
+        "off_campus": {
+          "groceries": 169.03,
+          "restaurants": 113.66,
+          "delivery": 42.38,
+          "rent": 0
+        },
+        "utilities": 107.72,
+        "transportation": 22.76,
+        "fun": {
+          "entertainment": 89.38,
+          "subscriptions": 13.93,
+          "trips": 31.29
+        },
+        "total": 1119.13
+      }
+    }
+  },
+  {
+    "student_id": "CMU2025-050",
+    "name": "Adam Bailey",
+    "level": "Masters",
+    "expenses": {
+      "monthly": {
+        "on_campus": {
+          "cafeteria": 121.48,
+          "restaurants": 71.78,
+          "convenience_store": 31.54,
+          "rent": 233.81
+        },
+        "off_campus": {
+          "groceries": 232.27,
+          "restaurants": 82.11,
+          "delivery": 28.24,
+          "rent": 0
+        },
+        "utilities": 84.58,
+        "transportation": 78.97,
+        "fun": {
+          "entertainment": 43.7,
+          "subscriptions": 27.3,
+          "trips": 59.27
+        },
+        "total": 1095.05
+      }
+    }
+  }
+]
